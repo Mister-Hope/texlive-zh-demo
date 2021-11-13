@@ -1,0 +1,35 @@
+% Import the original tex-live.sty from texlive-en
+\def\Status{1}
+
+% Chinese support (with XeTeX 0.9995+)
+\RequirePackage{xeCJK}
+\parindent=20pt 
+\defaultfontfeatures{Mapping=tex-text}
+% \setCJKmainfont[BoldFont=Source Han Sans SC, ItalicFont=AR PL UKai CN]{Songti SC}
+% \setCJKmonofont[Scale=0.9]{AR PL UKai CN}
+% \setCJKfamilyfont{song}[BoldFont=Source Han Sans SC]{Songti SC}
+% \setCJKfamilyfont{sf}[BoldFont=Source Han Sans SC]{Source Han Sans SC}
+
+\RequirePackage{tex-live}
+
+\renewcommand\contentsname{目录}
+\renewcommand\listfigurename{插图列表}
+\renewcommand\listtablename{表格列表}
+\renewcommand\refname{参考文献}
+\renewcommand\indexname{索引}
+\renewcommand\figurename{图}
+\renewcommand\tablename{表}
+\renewcommand\partname{部分}
+\renewcommand\appendixname{附录}
+\renewcommand\abstractname{摘要}
+\setlength{\parskip}{5pt}
+
+% Fix for xeCJK: xeCJK will remove all spaces after Chinese,
+% but it cannot add spaces between Chinese and \Url, that's
+% why we need to add them here
+% \renewcommand\path{ \begingroup \urlstyle{tt}\Url}
+% \def\OnCD#1{ \href{../../../../#1}{\path{#1}}}
+% \def\email#1{ \href{mailto:#1}{\path{#1}}}  % \path comes from url
+% \renewcommand\url{ \begingroup \Url}
+
+\endinput
