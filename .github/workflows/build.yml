@@ -1,0 +1,31 @@
+name: Build Tex
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          submodules: true
+
+      - name: Setup TeX Live
+        uses: teatimeguest/setup-texlive-action@v1
+        with:
+          packages: >-
+            ctex
+            colortbl
+            comment
+            float
+            latexmk
+            relsize
+            xelatex-dev
+            xecjk
+
+      - name: Build project
+        run: latexmk -synctex=1 -interaction=nonstopmode -file-line-error -xelatex texlive-zh-cn.tex
