@@ -8,9 +8,13 @@
 % Public domain.
 %
 \documentclass{article}
+
+% \documentclass[hyperref]{NENU-thesis}
+
 \let\tldocenglish=1  % for live4ht.cfg
 
 \usepackage{tex-live-zh-cn, indentfirst}
+\usepackage{nenu}
 
 \title{%
   {\huge \textit{\TeX\ Live 指南---2020}}%
@@ -25,10 +29,16 @@
 \begin{document}
 \maketitle
 
+%设置图片存放位置
+% \graphicspath{{figures/}}  
+
 \begin{multicols}{2}
   \tableofcontents
   %\listoftables
 \end{multicols}
+
+% 在这个文件里输入论文信息
+% \input{info.tex}
 
 \section{简介}
 \label{sec:intro}

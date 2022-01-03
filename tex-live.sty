@@ -35,8 +35,7 @@
 \DefineVerbatimEnvironment{verbatim}{Verbatim}{fontsize=\normalsize}
 \DefineVerbatimEnvironment{sverbatim}{Verbatim}{fontsize=\small}
 \DefineVerbatimEnvironment{fverbatim}{Verbatim}{fontsize=\footnotesize}
-\DefineVerbatimEnvironment{boxedverbatim}
-  {Verbatim}{fontsize=\footnotesize,frame=single}
+\DefineVerbatimEnvironment{boxedverbatim}{Verbatim}{fontsize=\footnotesize,frame=single}
 \DefineVerbatimEnvironment{Verbatim}{Verbatim}{fontsize=\normalsize}
 \def\verbatiminput#1{\VerbatimInput[fontsize=\small]{#1}}
 \def\boxedverbatiminput#1{\VerbatimInput[frame=single,fontsize=\footnotesize]{#1}}
@@ -56,12 +55,14 @@
 %ltr \advance\topmargin by -.5in
 %ltr \advance\footskip by -.5in
 %ltr %
-\message{dimens: textwidth=\the\textwidth\space
-         oddsidemargin=\the\oddsidemargin\space
-         evensidemargin=\the\evensidemargin\space
-         textheight=\the\textheight\space
-         topmargin=\the\topmargin\space
-         footskip=\the\footskip}
+\message{
+  dimens: textwidth=\the\textwidth\space
+  oddsidemargin=\the\oddsidemargin\space
+  evensidemargin=\the\evensidemargin\space
+  textheight=\the\textheight\space
+  topmargin=\the\topmargin\space
+  footskip=\the\footskip
+}
 % 
 % with settings above, and without a4 (hence letter):
 % textwidth=424.49744pt  oddsidemargin=22.25128pt evensidemargin=22.25128pt
@@ -156,8 +157,10 @@
 \def\AFMtoTFM{\cmdname{AFM2TFM}\null}
 \def\bv{\emph{Baskerville}}
 \let\BV=\bv
-\newcommand{\CS}{$\mathcal{C}\kern-.1667em\lower.5ex%
-                 \hbox{$\mathcal{S}$}\kern-.075em $}
+\newcommand{\CS}{
+  $\mathcal{C}\kern-.1667em\lower.5ex%
+    \hbox{$\mathcal{S}$}\kern-.075em $
+}
 \def\Dash{\unskip\nobreak\thinspace---\thinspace\ignorespaces}
 \def\dvicopy{\cmdname{dvicopy}}
 \def\dvidvi{\cmdname{dvidvi}}
@@ -172,15 +175,15 @@
 % This code % is hacked from its definition of \cs{LaTeX}; it allows
 % slants (for example) to propagate into the raised (small) `A':
 \newcommand{\La}%
-   {L\kern-.36em
-        {\setbox0\hbox{T}%
-         \vbox to\ht0{\hbox{$\m@th$%
-                            \csname S@\f@size\endcsname
-                            \fontsize\sf@size\z@
-                            \math@fontsfalse\selectfont
-                            A}%
-                      \vss}%
-        }}
+{L\kern-.36em
+{\setbox0\hbox{T}%
+\vbox to\ht0{\hbox{$\m@th$%
+    \csname S@\f@size\endcsname
+    \fontsize\sf@size\z@
+    \math@fontsfalse\selectfont
+    A}%
+  \vss}%
+}}
 \def\OMEGA{$\Omega$}
 \def\OzMF{OzMF}
 \def\OzMP{OzMP}
@@ -197,8 +200,8 @@
 \def\VFtoVP{\cmdname{VFtoVP}\null}
 \def\VPtoVF{\cmdname{VPtoVF}\null}
 \def\Thanh{H\`an~Th\ifx  % get Unicode char in tex4ht's HTML output
-     \HCode\UnDef\^e\llap{\raise 0.5ex\hbox{\'{}}}\else
-     \HCode{\string&\#x1EBF;}\fi~Th\`anh}
+    \HCode\UnDef\^e\llap{\raise 0.5ex\hbox{\'{}}}\else
+    \HCode{\string&\#x1EBF;}\fi~Th\`anh}
 \def\XEmTeX{\textrm{XEm}\TeX\xspace}
 \def\XEmacs{\textrm{XEmacs}\xspace}
 \def\XeTeX{Xe\TeX}
@@ -240,51 +243,51 @@
 % Don't know why \descriptionlabel doesn't.
 %
 \newenvironment{ttdescription}
-  {\begin{list}{label must be supplied}{%
-     \itemsep=0pt  % these lists tend to have short descriptions
-     \parindent=0pt
-     \let\makelabel=\ttdescriptionlabel}}%
-  {\end{list}}
+{\begin{list}{label must be supplied}{%
+      \itemsep=0pt  % these lists tend to have short descriptions
+      \parindent=0pt
+      \let\makelabel=\ttdescriptionlabel}}%
+    {\end{list}}
 \newcommand*\ttdescriptionlabel[1]{\hspace\labelsep
-                                   \normalfont\ttfamily #1\hfil}
+  \normalfont\ttfamily #1\hfil}
 %
 % Likewise, for commands using sans serif.
 \newenvironment{cmddescription}
-  {\begin{list}{label must be supplied}{%
-     \itemsep=0pt
-     \let\makelabel=\cmddescriptionlabel}}%
-  {\end{list}}
+{\begin{list}{label must be supplied}{%
+      \itemsep=0pt
+      \let\makelabel=\cmddescriptionlabel}}%
+    {\end{list}}
 \newcommand*\cmddescriptionlabel[1]{\hspace\labelsep
-                                    \normalfont\sffamily #1\hfil}
+  \normalfont\sffamily #1\hfil}
 
 % General squeezed itemize/enumerate; no extra space at top or between items.
 \newenvironment{itemize*}%
-  {\begin{itemize}%
+{\begin{itemize}%
     \setlength{\itemsep}{0pt}%
     \setlength{\parskip}{0pt}%
     \setlength{\topsep}{0pt}%
     \setlength{\partopsep}{0pt}%
-  }%
-  {\end{itemize}}
+    }%
+    {\end{itemize}}
 
 \newenvironment{enumerate*}%
-  {\begin{enumerate}%
+{\begin{enumerate}%
     \setlength{\itemsep}{0pt}%
     \setlength{\parskip}{0pt}}%
-  {\end{enumerate}}
+    {\end{enumerate}}
 
 \newsavebox{\wbox}
 \newenvironment{warningbox}
- {\begin{lrbox}{\wbox}
- \begin{minipage}{.95\textwidth}}
- {\end{minipage}\end{lrbox}\fbox{\usebox{\wbox}}}
+{\begin{lrbox}{\wbox}
+    \begin{minipage}{.95\textwidth}}
+      {\end{minipage}\end{lrbox}\fbox{\usebox{\wbox}}}
 %
 % lrbox is used as a representation marking. I changed it to
 % lrBox in tne source file, to get closer to logical marking
 \newsavebox{\mylrbox}
 \newenvironment{lrBox}
- {\begin{lrbox}{\mylrbox}}
- {\end{lrbox}}
+{\begin{lrbox}{\mylrbox}}
+    {\end{lrbox}}
 
 
 % emacs-page output setup
@@ -312,19 +315,19 @@
   \typeout{TeX Live documentation in DVI format}
   \SingleColumntrue
   \newenvironment{multicols}[1]{}{}
- \or
+\or
   % \Status = 1
   \typeout{TeX Live documentation in PDF format}
   \RequirePackage[breaklinks,
-                  colorlinks,linkcolor=hypercolor,citecolor=hypercolor,
-                    urlcolor=hypercolor,filecolor=hypercolor,
-                  bookmarksopen,
-                  %pdfstartview={FitBH -320000}, % fails with acrobat7
-                  hyperindex]
-        {hyperref}
+    colorlinks,linkcolor=hypercolor,citecolor=hypercolor,
+    urlcolor=hypercolor,filecolor=hypercolor,
+    bookmarksopen,
+    %pdfstartview={FitBH -320000}, % fails with acrobat7
+    hyperindex]
+  {hyperref}
   \SingleColumntrue
   \newenvironment{multicols}[1]{}{}
- \or
+\or
   % \Status = 2
   \typeout{TeX Live documentation in HTML format}
   \SingleColumntrue
@@ -336,21 +339,21 @@
   \def\CDref#1#2{\href{../../../../#1}{#2}}
   \def\OnCD#1{\href{../../../../#1}{#1}}
   \def\htmlanchor#1{\HCode{<a id="#1"></a>}}
- \or
+\or
   % \Status = 3
   \typeout{TeX Live documentation as a Baskerville issue}
   \@ifundefined{Fonts}%
-    {\RequirePackage{ae}}%
-    {\RequirePackage[T1]{\Fonts}}
+  {\RequirePackage{ae}}%
+  {\RequirePackage[T1]{\Fonts}}
   \RequirePackage{bvoutln}% outline of baskerville
   \SingleColumnfalse
   \RequirePackage{multicol}
- \or
+\or
   % \Status = 4
   \typeout{TeX Live documentation as a TUB article}
   \@ifundefined{Fonts}%
-    {\RequirePackage{ae}}%
-    {\RequirePackage[T1]{\Fonts}}
+  {\RequirePackage{ae}}%
+  {\RequirePackage[T1]{\Fonts}}
   \SingleColumnfalse
   \newenvironment{multicols}[1]{}{}
 \fi
@@ -359,7 +362,7 @@
 \else
   \RequirePackage{texnames}
   \providecommand\TeXXeT{\TeX-{}-%
-    \kern-.1emX\kern-.125em\lower.5ex\hbox{E}\kern-.1667emT\@}
+  \kern-.1emX\kern-.125em\lower.5ex\hbox{E}\kern-.1667emT\@}
   \def\MP{MetaPost}
   \let\mf\MF
   \newcommand\ConTeXt{C\kern-.0333emon\-\kern-.0667em\TeX\kern-.0333emt}
@@ -382,11 +385,11 @@
 \let\Section\section
 \renewcommand{\section}{%
   \@ifstar
-    {\Section*}%
-    {%
-      \@condend@multicols
-      \@dblarg\@full@section
-    }%
+  {\Section*}%
+  {%
+    \@condend@multicols
+    \@dblarg\@full@section
+  }%
 }
 \def\@full@section[#1]#2{%
   \Section[#1]{#2}%
@@ -407,33 +410,33 @@
 
 % Reduce list spacing.
 \def\@listI{\leftmargin\leftmargini
- \parsep \z@
- \topsep 2\p@ \@plus 1\p@ \@minus 1\p@
- \itemsep \z@ \@plus .1\p@
+  \parsep \z@
+  \topsep 2\p@ \@plus 1\p@ \@minus 1\p@
+  \itemsep \z@ \@plus .1\p@
 }
 \let\@listi\@listI
 \@listi
 \def\@listii{\leftmargin\leftmarginii
- \labelwidth\leftmarginii\advance\labelwidth-\labelsep
- \topsep 2\p@ \@plus 1\p@ \@minus 1\p@
- \parsep \z@
- \itemsep \z@ \@plus .1\p@
+  \labelwidth\leftmarginii\advance\labelwidth-\labelsep
+  \topsep 2\p@ \@plus 1\p@ \@minus 1\p@
+  \parsep \z@
+  \itemsep \z@ \@plus .1\p@
 }
 \def\@listiii{\leftmargin\leftmarginiii
- \labelwidth\leftmarginiii\advance\labelwidth-\labelsep
- \topsep 1\p@ \@plus 1\p@ \@minus 1\p@
- \parsep \z@
- \partopsep \z@
- \itemsep \topsep
+  \labelwidth\leftmarginiii\advance\labelwidth-\labelsep
+  \topsep 1\p@ \@plus 1\p@ \@minus 1\p@
+  \parsep \z@
+  \partopsep \z@
+  \itemsep \topsep
 }
 \def\@listiv{\leftmargin\leftmarginiv
- \labelwidth\leftmarginiv\advance\labelwidth-\labelsep
+  \labelwidth\leftmarginiv\advance\labelwidth-\labelsep
 }
 \def\@listv{\leftmargin\leftmarginv
- \labelwidth\leftmarginv\advance\labelwidth-\labelsep
+  \labelwidth\leftmarginv\advance\labelwidth-\labelsep
 }
 \def\@listvi{\leftmargin\leftmarginvi
- \labelwidth\leftmarginvi\advance\labelwidth-\labelsep
+  \labelwidth\leftmarginvi\advance\labelwidth-\labelsep
 }
 %
 % array package stuff
@@ -446,17 +449,17 @@
 \newcount\colrow
 \gdef\RowColor{pale}
 \def\SetRowColor{%
- \rowcolor{\RowColor}%
- \global\advance\colrow by1\relax
- \ifodd\colrow
-   \gdef\RowColor{pale}%
- \else
-   \gdef\RowColor{white}%
- \fi
+  \rowcolor{\RowColor}%
+  \global\advance\colrow by1\relax
+  \ifodd\colrow
+    \gdef\RowColor{pale}%
+  \else
+    \gdef\RowColor{white}%
+  \fi
 }
 % redefine to hack up a reference even though we don't need it...
 \renewcommand\@bibitem[1]{\if@filesw \immediate\write\@auxout
-  {\string\bibcite{#1}{?}}\fi\ignorespaces}
+    {\string\bibcite{#1}{?}}\fi\ignorespaces}
 %
 % \unknownTeXlive is a dummy texlive entry for the biblio
 \newcommand\unknownTeXlive[2][\relax]{\textbf{\textsc{unknown}}%
