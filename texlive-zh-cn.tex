@@ -18,7 +18,7 @@
 
 \author{Karl Berry 编写 \\[3mm]
         \url{https://tug.org/texlive/}
-       }
+      }
 
 \date{2020 年 3 月}
 
@@ -26,8 +26,8 @@
 \maketitle
 
 \begin{multicols}{2}
-\tableofcontents
-%\listoftables
+  \tableofcontents
+  %\listoftables
 \end{multicols}
 
 \section{简介}
@@ -82,16 +82,16 @@ Windows Vista 可能可以继续工作，但 \TL{} 不能在 Windows XP
 
 \begin{itemize*}
 
-\item 安装脚本的名称是 \filename{install-tl}。它可以在指定了
-\code{-gui} 选项的情况下以“GUI”模式 (Windows 和 \MacOSX{} 下的默认模式)
-工作，或指定 \code{-gui=text} 选项以文本模式 (其它系统下默认模式)
-工作。在 Unix 平台上如果安装了 Perl/Tk，以前的 Perl/Tk 和向导模式还可以
-通过 \code{-gui=perltk} 选项启用。关于 Windows 下的使用参见
-\ref{sec:wininst} 一节。
+  \item 安装脚本的名称是 \filename{install-tl}。它可以在指定了
+  \code{-gui} 选项的情况下以“GUI”模式 (Windows 和 \MacOSX{} 下的默认模式)
+  工作，或指定 \code{-gui=text} 选项以文本模式 (其它系统下默认模式)
+  工作。在 Unix 平台上如果安装了 Perl/Tk，以前的 Perl/Tk 和向导模式还可以
+  通过 \code{-gui=perltk} 选项启用。关于 Windows 下的使用参见
+  \ref{sec:wininst} 一节。
 
-\item 安装完成后可以得到一个名为 \prog{tlmgr} 的程序：`\TL\ Manager'。
-和安装程序一样，它可以在 \GUI{} 模式或文本模式下运行。你不但可以用它
-来安装或卸载软件包，还可以用来完成各种配置工作。
+  \item 安装完成后可以得到一个名为 \prog{tlmgr} 的程序：`\TL\ Manager'。
+  和安装程序一样，它可以在 \GUI{} 模式或文本模式下运行。你不但可以用它
+  来安装或卸载软件包，还可以用来完成各种配置工作。
 
 \end{itemize*}
 
@@ -129,42 +129,42 @@ Windows Vista 可能可以继续工作，但 \TL{} 不能在 Windows XP
 按照推荐使用的顺序，我们列出了这样一份资源列表：
 
 \begin{description}
-\item [起步] 如果你刚刚接触 \TeX，\url{https://tug.org/begin.html}
-这个网页提供了这个系统的简短介绍。
+  \item [起步] 如果你刚刚接触 \TeX，\url{https://tug.org/begin.html}
+        这个网页提供了这个系统的简短介绍。
 
-\item [\TeX{} FAQ] 这套庞大的 \TeX{} FAQ 对各种各样的
-问题——从最基础到最晦涩的——都给予了简明的回答，它在 \TL{} 的
-\OnCD{texmf-dist/doc/generic/FAQ-en/}，也可以在
-\url{https://texfaq.org} 网站上找到。有问题时请先看看这里能否找
-到解答。
+  \item [\TeX{} FAQ] 这套庞大的 \TeX{} FAQ 对各种各样的
+        问题——从最基础到最晦涩的——都给予了简明的回答，它在 \TL{} 的
+        \OnCD{texmf-dist/doc/generic/FAQ-en/}，也可以在
+        \url{https://texfaq.org} 网站上找到。有问题时请先看看这里能否找
+        到解答。
 
-\item [\TeX{} Catalogue] 如果你在寻找某个特定的宏包、字体、程序等等，\TeX{}
-Catalogue 就是你首先该找的地方。这里是所有 \TeX{} 相关内容的一个巨大集合。参见
-\url{https://ctan.org/pkg/catalogue}。
+  \item [\TeX{} Catalogue] 如果你在寻找某个特定的宏包、字体、程序等等，\TeX{}
+        Catalogue 就是你首先该找的地方。这里是所有 \TeX{} 相关内容的一个巨大集合。参见
+        \url{https://ctan.org/pkg/catalogue}。
 
-\item [\TeX{} 网上资源] \url{https://tug.org/interest.html}~页面上有
-许多和 \TeX{} 相关的链接，包括讨论这个系统方方面面的许多书籍、手册和文章。
+  \item [\TeX{} 网上资源] \url{https://tug.org/interest.html}~页面上有
+        许多和 \TeX{} 相关的链接，包括讨论这个系统方方面面的许多书籍、手册和文章。
 
-\item [支持信息的归档] 最重要的 \TeX\ 技术支持论坛是
-\LaTeX{} 社区网站 \url{http://latex-community.org/}, 问答网站
-\url{https://tex.stackexchange.com}, Usenet 的新闻组 \url{news:comp.text.tex}
-和邮件列表 \email{texhax@tug.org}。它们的内容归档中有多年以来的提问和回答供你
-搜索。最后两种你可以用 \\
-\url{http://groups.google.com/groups?group=comp.text.tex} 和 \\
-\url{https://tug.org/mail-archives/texhax} 进行查询。当然，一般性的搜索
-方式也没有坏处。
+  \item [支持信息的归档] 最重要的 \TeX\ 技术支持论坛是
+        \LaTeX{} 社区网站 \url{http://latex-community.org/}, 问答网站
+        \url{https://tex.stackexchange.com}, Usenet 的新闻组 \url{news:comp.text.tex}
+        和邮件列表 \email{texhax@tug.org}。它们的内容归档中有多年以来的提问和回答供你
+        搜索。最后两种你可以用 \\
+        \url{http://groups.google.com/groups?group=comp.text.tex} 和 \\
+        \url{https://tug.org/mail-archives/texhax} 进行查询。当然，一般性的搜索
+        方式也没有坏处。
 
-\item [提问] 如果你还是找不到答案，可以在 \url{https://latex.org} 和
-\url{https://tex.stackexchange.com/} 网站上提问，通过 Google
-或者你的新闻组阅读器在 \dirname{comp.text.tex} 上提问，或者发送邮件到
-\email{texhax@tug.org}。不过，在提问之前请先阅读 FAQ 上的这一条：
-\url{https://texfaq.org/FAQ-askquestion}，
-它能提高你获得回答的可能性。
+  \item [提问] 如果你还是找不到答案，可以在 \url{https://latex.org} 和
+        \url{https://tex.stackexchange.com/} 网站上提问，通过 Google
+        或者你的新闻组阅读器在 \dirname{comp.text.tex} 上提问，或者发送邮件到
+        \email{texhax@tug.org}。不过，在提问之前请先阅读 FAQ 上的这一条：
+        \url{https://texfaq.org/FAQ-askquestion}，
+        它能提高你获得回答的可能性。
 
-\item [\TL{} 技术支持] 如果你需要报告 bug，或者提出对 \TL{} 的发行、安装或
-文档的建议和意见，可以使用 \email{tex-live@tug.org} 这个邮件列表。不过，如果问题
-是针对 \TL{} 中包含的某个特定程序，那最好还是写信给这个程序的维护者或邮件列表。
-用 \code{-{}-help} 参数来运行程序都一般能得到用来报告其 bug 的地址。
+  \item [\TL{} 技术支持] 如果你需要报告 bug，或者提出对 \TL{} 的发行、安装或
+        文档的建议和意见，可以使用 \email{tex-live@tug.org} 这个邮件列表。不过，如果问题
+        是针对 \TL{} 中包含的某个特定程序，那最好还是写信给这个程序的维护者或邮件列表。
+        用 \code{-{}-help} 参数来运行程序都一般能得到用来报告其 bug 的地址。
 
 \end{description}
 
@@ -179,25 +179,25 @@ Catalogue 就是你首先该找的地方。这里是所有 \TeX{} 相关内容�
 这个小节描述的是 \TL{} 的内容，以及包含 \TL{} 的 \TK{}。
 
 \subsection{\protect\TeX\protect\ Collection: \protect\TL,
-            pro\protect\TeX{}t, Mac\protect\TeX}
+  pro\protect\TeX{}t, Mac\protect\TeX}
 \label{sec:tl-coll-dists}
 
 \TK{} 的 \DVD{} 包含了以下内容：
 
 \begin{description}
 
-\item [\TL] 是一个完整的 \TeX{} 系统，它可以安装在本
-地磁盘上。主页: \url{https://tug.org/texlive/}。
+  \item [\TL] 是一个完整的 \TeX{} 系统，它可以安装在本
+        地磁盘上。主页: \url{https://tug.org/texlive/}。
 
-\item [Mac\TeX] 在 \TL{} 的基础上增加了原生的 \MacOSX\ (目前 Apple 把它称作
-macOS，但在这份文档中我们还沿用它的旧名字) 的安装程序和一些其它的
-Mac 应用程序。它的主页在 \url{https://tug.org/mactex/}。
+  \item [Mac\TeX] 在 \TL{} 的基础上增加了原生的 \MacOSX\ (目前 Apple 把它称作
+        macOS，但在这份文档中我们还沿用它的旧名字) 的安装程序和一些其它的
+        Mac 应用程序。它的主页在 \url{https://tug.org/mactex/}。
 
-\item [pro\TeX{}t] 是 Windows 下的 \MIKTEX\ 发行版的一个增强版本。\ProTeXt\ 在
-\MIKTEX\ 基础上增加了一些工具，简化了安装。它完全独立于 \TL{}，有其
-自己的安装步骤。主页: \url{https://tug.org/protext}。
+  \item [pro\TeX{}t] 是 Windows 下的 \MIKTEX\ 发行版的一个增强版本。\ProTeXt\ 在
+        \MIKTEX\ 基础上增加了一些工具，简化了安装。它完全独立于 \TL{}，有其
+        自己的安装步骤。主页: \url{https://tug.org/protext}。
 
-\item [CTAN] 一份 \CTAN{} 仓库的快照 (\url{https://ctan.org/})。
+  \item [CTAN] 一份 \CTAN{} 仓库的快照 (\url{https://ctan.org/})。
 
 \end{description}
 
@@ -210,20 +210,20 @@ Mac 应用程序。它的主页在 \url{https://tug.org/mactex/}。
 这里是 \TL{} 发行版顶层目录的一个简短的列表和描述。
 
 \begin{ttdescription}
-\item[bin] \TeX{} 系统程序，按平台组织。
-%
-\item[readme.html] 网页，提供了多种语言的简介和有用的链接。
-\item[readme-*.dir] \TL{} 多种语言的简介和有用的链接，同时有 \HTML{}
-和纯文本版本。
+  \item[bin] \TeX{} 系统程序，按平台组织。
+  %
+  \item[readme.html] 网页，提供了多种语言的简介和有用的链接。
+  \item[readme-*.dir] \TL{} 多种语言的简介和有用的链接，同时有 \HTML{}
+  和纯文本版本。
 
-%
-\item[source] 所有程序的源代码，包括主要的基于 \Webc{} 的 \TeX{}
+  %
+  \item[source] 所有程序的源代码，包括主要的基于 \Webc{} 的 \TeX{}
   发行版。
-%
-\item[texmf-dist] 最主要的文件树，见下文的 \dirname{TEXMFDIST}。
-%
-\item[tlpkg] 用来维护安装程序所用到的脚本，程序和数据，以及对
-Windows 的特殊支持。
+  %
+  \item[texmf-dist] 最主要的文件树，见下文的 \dirname{TEXMFDIST}。
+  %
+  \item[tlpkg] 用来维护安装程序所用到的脚本，程序和数据，以及对
+  Windows 的特殊支持。
 \end{ttdescription}
 
 至于文档，顶层目录下的 \OnCD{doc.html} 文件中提供的完整的链接会有帮助。
@@ -235,16 +235,16 @@ Windows 的特殊支持。
 \TL\ 本身的文档在 \dirname{texmf-dist/doc/texlive} 目录下，有以下这些语言的版本：
 
 \begin{itemize*}
-\item{捷克/斯洛伐克语:} \OnCD{texmf-dist/doc/texlive/texlive-cz}
-\item{德语:} \OnCD{texmf-dist/doc/texlive/texlive-de}
-\item{英语:} \OnCD{texmf-dist/doc/texlive/texlive-en}
-\item{法语:} \OnCD{texmf-dist/doc/texlive/texlive-fr}
-\item{意大利语:} \OnCD{texmf-dist/doc/texlive/texlive-it}
-\item{日语:} \OnCD{texmf-dist/doc/texlive/texlive-ja}
-\item{波兰语:} \OnCD{texmf-dist/doc/texlive/texlive-pl}
-\item{俄语:} \OnCD{texmf-dist/doc/texlive/texlive-ru}
-\item{塞尔维亚语:} \OnCD{texmf-dist/doc/texlive/texlive-sr}
-\item{简体中文:} \OnCD{texmf-dist/doc/texlive/texlive-zh-cn}
+  \item{捷克/斯洛伐克语:} \OnCD{texmf-dist/doc/texlive/texlive-cz}
+  \item{德语:} \OnCD{texmf-dist/doc/texlive/texlive-de}
+  \item{英语:} \OnCD{texmf-dist/doc/texlive/texlive-en}
+  \item{法语:} \OnCD{texmf-dist/doc/texlive/texlive-fr}
+  \item{意大利语:} \OnCD{texmf-dist/doc/texlive/texlive-it}
+  \item{日语:} \OnCD{texmf-dist/doc/texlive/texlive-ja}
+  \item{波兰语:} \OnCD{texmf-dist/doc/texlive/texlive-pl}
+  \item{俄语:} \OnCD{texmf-dist/doc/texlive/texlive-ru}
+  \item{塞尔维亚语:} \OnCD{texmf-dist/doc/texlive/texlive-sr}
+  \item{简体中文:} \OnCD{texmf-dist/doc/texlive/texlive-zh-cn}
 \end{itemize*}
 
 
@@ -263,52 +263,52 @@ Windows 的特殊支持。
 优先级相反，也就是说，列在更靠后的目录树会被更优先搜索。
 
 \begin{ttdescription}
-\item [TEXMFDIST] 这个目录树包含几乎所有原有发行版本的文件——配置文件、脚本、宏
-包、字体等等。唯一的例外是每个平台的可执行文件，存储在与它同级的 \code{bin/} 目
-录下。
-\item [TEXMFSYSVAR] 给 \verb+texconfig-sys+、\verb+updmap-sys+ 和
-\verb+fmtutil-sys+ 还有 \verb+tlmgr+ 这几个命令存储、缓存运行时使用的格式文件和
-生成的 map 文件，对整个系统都有效。
-\item [TEXMFSYSCONFIG] 给 \verb+texconfig-sys+、\verb+updmap-sys+ 和
-\verb+fmtutil-sys+ 这些程序存储修改过的全局文件.
-\item [TEXMFLOCAL] 系统管理员用来安装供整个系统使用的额外的或更新过的宏包、字体
-的目录。
-\item [TEXMFHOME] 给用户存放它们自己独立安装的的宏包、字体等等。
-这个变量根据不同的用户选择不同的主目录。
-\item [TEXMFVAR] 这个目录是给 \verb+texconfig+、\verb+updmap-user+ 和
+  \item [TEXMFDIST] 这个目录树包含几乎所有原有发行版本的文件——配置文件、脚本、宏
+  包、字体等等。唯一的例外是每个平台的可执行文件，存储在与它同级的 \code{bin/} 目
+  录下。
+  \item [TEXMFSYSVAR] 给 \verb+texconfig-sys+、\verb+updmap-sys+ 和
+  \verb+fmtutil-sys+ 还有 \verb+tlmgr+ 这几个命令存储、缓存运行时使用的格式文件和
+  生成的 map 文件，对整个系统都有效。
+  \item [TEXMFSYSCONFIG] 给 \verb+texconfig-sys+、\verb+updmap-sys+ 和
+  \verb+fmtutil-sys+ 这些程序存储修改过的全局文件.
+  \item [TEXMFLOCAL] 系统管理员用来安装供整个系统使用的额外的或更新过的宏包、字体
+  的目录。
+  \item [TEXMFHOME] 给用户存放它们自己独立安装的的宏包、字体等等。
+  这个变量根据不同的用户选择不同的主目录。
+  \item [TEXMFVAR] 这个目录是给 \verb+texconfig+、\verb+updmap-user+ 和
   \verb+fmtutil-user+ 存储 (缓存) 格式文件、生成 map 文件这类运行时个人数据的。
-\item [TEXMFCONFIG] 给 \verb+texconfig+、\verb+updmap-sys+、和 \verb+fmtutil-sys+
-这些程序存储个人修改过的配置文件。
-\item [TEXMFCACHE] \ConTeXt\ MkIV 和 Lua\LaTeX\ 用来保存 (缓存的) 运行时
-数据的目录树；缺省为 \code{TEXMFSYSVAR}，如果该目录不可写，则使用
-\code{TEXMFVAR}。
+  \item [TEXMFCONFIG] 给 \verb+texconfig+、\verb+updmap-sys+、和 \verb+fmtutil-sys+
+  这些程序存储个人修改过的配置文件。
+  \item [TEXMFCACHE] \ConTeXt\ MkIV 和 Lua\LaTeX\ 用来保存 (缓存的) 运行时
+  数据的目录树；缺省为 \code{TEXMFSYSVAR}，如果该目录不可写，则使用
+  \code{TEXMFVAR}。
 \end{ttdescription}
 
 \noindent
 默认的目录结构：
 \begin{description}
   \item[全系统根目录] 可以包含多个 \TL{} 版本:
-  (在 Unix 下默认是 \texttt{/usr/local/texlive})
-  \begin{ttdescription}
-    \item[2019] 上一个版本。
-    \item[2020] 当前版本。
+    (在 Unix 下默认是 \texttt{/usr/local/texlive})
     \begin{ttdescription}
-      \item [bin] ~
+      \item[2019] 上一个版本。
+      \item[2020] 当前版本。
       \begin{ttdescription}
-        \item [i386-linux] \GNU/Linux 二进制文件 (32 位)
-        \item [...]
-        \item [x86\_64-darwin] \MacOSX\ 二进制文件
-        \item [x86\_64-linux] \GNU/Linux 二进制文件 (64 位)
-        \item [win32] Windows 二进制文件
+        \item [bin] ~
+        \begin{ttdescription}
+          \item [i386-linux] \GNU/Linux 二进制文件 (32 位)
+          \item [...]
+          \item [x86\_64-darwin] \MacOSX\ 二进制文件
+          \item [x86\_64-linux] \GNU/Linux 二进制文件 (64 位)
+          \item [win32] Windows 二进制文件
+        \end{ttdescription}
+        \item [texmf-dist\ \ ]      \envname{TEXMFDIST} 和 \envname{TEXMFMAIN}
+        \item [texmf-var \ \ ]      \envname{TEXMFSYSVAR}, \envname{TEXMFCACHE}
+        \item [texmf-config]        \envname{TEXMFSYSCONFIG}
       \end{ttdescription}
-      \item [texmf-dist\ \ ]      \envname{TEXMFDIST} 和 \envname{TEXMFMAIN}
-      \item [texmf-var \ \ ]      \envname{TEXMFSYSVAR}, \envname{TEXMFCACHE}
-      \item [texmf-config]        \envname{TEXMFSYSCONFIG}
+      \item [texmf-local] \envname{TEXMFLOCAL} 用来存放在不同版本间共享的数据。
     \end{ttdescription}
-    \item [texmf-local] \envname{TEXMFLOCAL} 用来存放在不同版本间共享的数据。
-  \end{ttdescription}
   \item[用户主 (home) 目录] (\texttt{\$HOME} 或
-      \texttt{\%USERPROFILE\%})
+    \texttt{\%USERPROFILE\%})
     \begin{ttdescription}
       \item[.texlive2019] 给上个版本的，个人生成和配置的数据。
       \item[.texlive2020] 给这个版本的，个人生成和配置的数据。
@@ -316,9 +316,9 @@ Windows 的特殊支持。
         \item [texmf-var\ \ \ ] \envname{TEXMFVAR}, \envname{TEXMFCACHE}
         \item [texmf-config]    \envname{TEXMFCONFIG}
       \end{ttdescription}
-    \item[texmf] \envname{TEXMFHOME} 个人的宏包文件，等等。
+      \item[texmf] \envname{TEXMFHOME} 个人的宏包文件，等等。
       \textit{等等。}
-  \end{ttdescription}
+    \end{ttdescription}
 \end{description}
 
 
@@ -332,36 +332,36 @@ Windows 的特殊支持。
 
 \begin{description}
 
-\item [\eTeX] 为 \TeX\ 增加了一套新的原语 (primitive)。
-\label{text:etex} (包括宏展开，字符扫描，mark 的分类，额外的调试功能，等等)
-以及用于双向排版的 \TeXXeT{} 扩展模式。在默认模式下，\eTeX{} 是与原始的 \TeX\
-100\% 兼容的。参见 \OnCD{texmf-dist/doc/etex/base/etex_man.pdf}。
+  \item [\eTeX] 为 \TeX\ 增加了一套新的原语 (primitive)。
+        \label{text:etex} (包括宏展开，字符扫描，mark 的分类，额外的调试功能，等等)
+        以及用于双向排版的 \TeXXeT{} 扩展模式。在默认模式下，\eTeX{} 是与原始的 \TeX\
+        100\% 兼容的。参见 \OnCD{texmf-dist/doc/etex/base/etex_man.pdf}。
 
-\item [pdf\TeX] 在 \eTeX\ 扩展的基础上构建，在 \dvi{} 输出之外增加对
-PDF 输出的支持，以及许多其他的扩展。
-这是针对 \prog{etex}, \prog{latex} 或 \prog{pdflatex} 这些格式使用的缺省程序。
-它的主页在 \url{http://www.pdftex.org/}，文档在
-\OnCD{texmf-dist/doc/pdftex/manual/pdftex-a.pdf}。可以在
-\OnCD{texmf-dist/doc/pdftex/samplepdftex/samplepdf.tex} 找到展示部分功能的例
-子。
+  \item [pdf\TeX] 在 \eTeX\ 扩展的基础上构建，在 \dvi{} 输出之外增加对
+        PDF 输出的支持，以及许多其他的扩展。
+        这是针对 \prog{etex}, \prog{latex} 或 \prog{pdflatex} 这些格式使用的缺省程序。
+        它的主页在 \url{http://www.pdftex.org/}，文档在
+        \OnCD{texmf-dist/doc/pdftex/manual/pdftex-a.pdf}。可以在
+        \OnCD{texmf-dist/doc/pdftex/samplepdftex/samplepdf.tex} 找到展示部分功能的例
+        子。
 
-\item  [Lua\TeX] 是 pdf\TeX\ 指定的后继者，而且对 pdf\TeX\ 保持大部分
-(但不是完全地) 向下兼容。它也希望包含 Aleph (见后) 的功能，尽管未必能完美兼容。
-它内置的 Lua 语言解释器 (\url{https://lua.org}) 为许多棘手的 \TeX{}
-问题提供了优雅的解决方案。当以 \filename{texlua} 命令执行时，它就像一个标准的
-Lua 解释器一样工作，所以，Lua\TeX\ 在 \TL\ 中也被作为 Lua 程序的解释器。
-见 \url{http://www.luatex.org} 和 \OnCD{texmf-dist/doc/luatex/luatex.pdf}。
+  \item  [Lua\TeX] 是 pdf\TeX\ 指定的后继者，而且对 pdf\TeX\ 保持大部分
+        (但不是完全地) 向下兼容。它也希望包含 Aleph (见后) 的功能，尽管未必能完美兼容。
+        它内置的 Lua 语言解释器 (\url{https://lua.org}) 为许多棘手的 \TeX{}
+        问题提供了优雅的解决方案。当以 \filename{texlua} 命令执行时，它就像一个标准的
+        Lua 解释器一样工作，所以，Lua\TeX\ 在 \TL\ 中也被作为 Lua 程序的解释器。
+        见 \url{http://www.luatex.org} 和 \OnCD{texmf-dist/doc/luatex/luatex.pdf}。
 
-\item [Xe\TeX] 通过第三方库，增加对 Unicode 输入文本和 OpenType 字体的支持，
-能够直接使用系统字体。参见 \url{https://tug.org/xetex}。
+  \item [Xe\TeX] 通过第三方库，增加对 Unicode 输入文本和 OpenType 字体的支持，
+        能够直接使用系统字体。参见 \url{https://tug.org/xetex}。
 
-\item [\OMEGA\ (Omega)] 基于 Unicode (16 位字符集)，因而同时支持处理世界上
-几乎所有的语言。它同时还支持所谓的 `\OMEGA{} Translation Processes' (OTP),
-用于对任意输入进行复杂的变换操作。Omega 现在已经不作为单独的程序出现在 \TL{}
-中了；改为只支持 Aleph：
+  \item [\OMEGA\ (Omega)] 基于 Unicode (16 位字符集)，因而同时支持处理世界上
+        几乎所有的语言。它同时还支持所谓的 `\OMEGA{} Translation Processes' (OTP),
+        用于对任意输入进行复杂的变换操作。Omega 现在已经不作为单独的程序出现在 \TL{}
+        中了；改为只支持 Aleph：
 
-\item [Aleph] 将 \OMEGA\ 与 \eTeX\ 扩展合并到一起得到的。
-参见 \OnCD{texmf-dist/doc/aleph/base}。
+  \item [Aleph] 将 \OMEGA\ 与 \eTeX\ 扩展合并到一起得到的。
+        参见 \OnCD{texmf-dist/doc/aleph/base}。
 
 \end{description}
 
@@ -372,27 +372,27 @@ Lua 解释器一样工作，所以，Lua\TeX\ 在 \TL\ 中也被作为 Lua 程�
 
 \begin{cmddescription}
 
-\item [bibtex, biber] 参考文献支持。
+  \item [bibtex, biber] 参考文献支持。
 
-\item [makeindex, xindy] 索引支持。
+  \item [makeindex, xindy] 索引支持。
 
-\item [dvips] 将 \dvi{} 转换为 \PS{}。
+  \item [dvips] 将 \dvi{} 转换为 \PS{}。
 
-\item [xdvi] X Window System 下的 \dvi{} 阅读器。
+  \item [xdvi] X Window System 下的 \dvi{} 阅读器。
 
-\item [dviconcat, dviselect] 从 \dvi{} 文件中复制和粘贴页面。
+  \item [dviconcat, dviselect] 从 \dvi{} 文件中复制和粘贴页面。
 
-\item [dvipdfmx] 将 \dvi{} 转换为 PDF，是 (前面提到过的)
-pdf\TeX\ 的一套替换方案。
+  \item [dvipdfmx] 将 \dvi{} 转换为 PDF，是 (前面提到过的)
+  pdf\TeX\ 的一套替换方案。
 
-\item [psselect, psnup, \ldots] \PS{} 实用程序。
+  \item [psselect, psnup, \ldots] \PS{} 实用程序。
 
-\item [pdfjam, pdfjoin, \ldots] PDF 实用程序。
+  \item [pdfjam, pdfjoin, \ldots] PDF 实用程序。
 
-\item [context, mtxrun] Con\TeX{}t 和 PDF 处理工具。
+  \item [context, mtxrun] Con\TeX{}t 和 PDF 处理工具。
 
-\item [htlatex, \ldots] \cmdname{tex4ht}: \AllTeX{} 到 HTML (还有 XML
-等其他格式) 的转换器。
+  \item [htlatex, \ldots] \cmdname{tex4ht}: \AllTeX{} 到 HTML (还有 XML
+  等其他格式) 的转换器。
 
 \end{cmddescription}
 
@@ -407,31 +407,31 @@ pdf\TeX\ 的一套替换方案。
 \url{https://tug.org/texlive/acquire.html} 以了解更多关于获得这个软件的信息和方法。
 
 \begin{description}
-\item [网络安装程序，.zip 或 .tar.gz 格式：] 在 \CTAN 的 \dirname{systems/texlive/tlnet}
-目录下可以下载，\url{http://mirror.ctan.org/systems/texlive/tlnet} 这个地址应该
-能将你导向一个附近的、保持更新的镜像。你可以下载同时支持 Unix 和
-Windows 的 \filename{install-tl.zip} 或者小得多、但只支持 Unix 的
-\filename{install-unx.tar.gz}。解压后，\filename{install-tl} 和
-\filename{install-tl-windows.bat} 就会出现在 \dirname{install-tl} 子目录中。
+  \item [网络安装程序，.zip 或 .tar.gz 格式：] 在 \CTAN 的 \dirname{systems/texlive/tlnet}
+        目录下可以下载，\url{http://mirror.ctan.org/systems/texlive/tlnet} 这个地址应该
+        能将你导向一个附近的、保持更新的镜像。你可以下载同时支持 Unix 和
+        Windows 的 \filename{install-tl.zip} 或者小得多、但只支持 Unix 的
+        \filename{install-unx.tar.gz}。解压后，\filename{install-tl} 和
+        \filename{install-tl-windows.bat} 就会出现在 \dirname{install-tl} 子目录中。
 
-\item[网络安装程序，Windows .exe:] 和上述一样从 \CTAN{} 下载，然后双击。它会作为
-第一阶段的安装程序和解压工具启动；见图~\ref{fig:nsis}。它提供了两个选项：
-``Install'' 和 ``Unpack only''。
+  \item[网络安装程序，Windows .exe:] 和上述一样从 \CTAN{} 下载，然后双击。它会作为
+    第一阶段的安装程序和解压工具启动；见图~\ref{fig:nsis}。它提供了两个选项：
+    ``Install'' 和 ``Unpack only''。
 
-\item [\TeX{} Collection \DVD:] 打开 \DVD\ 的 \dirname{texlive} 这个子目录。
-在 Windows 下安装程序通常在插入 \DVD 后就自动启动了。要获得 \DVD 的
-话可以加入一个 \TeX\ 用户组织 (推荐这么做，参见
-\url{https://tug.org/usergroups.html}) 或是单独购买 (通过
-\url{https://tug.org/store})，又或者是自己从 \ISO\ 镜像刻录。
-在多数系统里你都可以直接挂载这个 \ISO{}。在从 \DVD\ 或者 \ISO{} 安装后，
-如果还希望从 Internet 获得持续的更新，请看第 \ref{sec:dvd-install-net-updates}
-节。
+  \item [\TeX{} Collection \DVD:] 打开 \DVD\ 的 \dirname{texlive} 这个子目录。
+        在 Windows 下安装程序通常在插入 \DVD 后就自动启动了。要获得 \DVD 的
+        话可以加入一个 \TeX\ 用户组织 (推荐这么做，参见
+        \url{https://tug.org/usergroups.html}) 或是单独购买 (通过
+        \url{https://tug.org/store})，又或者是自己从 \ISO\ 镜像刻录。
+        在多数系统里你都可以直接挂载这个 \ISO{}。在从 \DVD\ 或者 \ISO{} 安装后，
+        如果还希望从 Internet 获得持续的更新，请看第 \ref{sec:dvd-install-net-updates}
+        节。
 
 \end{description}
 
 \begin{figure}[tb]
-\tlpng{nsis_installer}{.6\linewidth}
-\caption{第一阶段的 Windows \code{.exe} 安装程序}\label{fig:nsis}
+  \tlpng{nsis_installer}{.6\linewidth}
+  \caption{第一阶段的 Windows \code{.exe} 安装程序}\label{fig:nsis}
 \end{figure}
 
 不管从哪里载入，执行的都是同一个安装程序。两者最明显的区别是通过网络安装
@@ -452,7 +452,7 @@ Windows 的 \filename{install-tl.zip} 或者小得多、但只支持 Unix 的
 的方法是这样的：
 
 \begin{alltt}
-> \Ucom{perl /path/to/installer/install-tl}
+  > \Ucom{perl /path/to/installer/install-tl}
 \end{alltt}
 (你也许可以直接运行 \Ucom{/path/to/installer/install-tl} 如果这个文件有可执行属
 性，或者先 \texttt{cd} 到这个目录中，等等。我们不会把所有这些执行方法列出来。)
@@ -462,14 +462,14 @@ Windows 的 \filename{install-tl.zip} 或者小得多、但只支持 Unix 的
 要在 \GUI\ 模式下安装 (见图~\ref{fig:advanced-lnx})，你需要安装 Tcl/Tk。所以你可
 以运行：
 \begin{alltt}
-> \Ucom{perl install-tl -gui}
+  > \Ucom{perl install-tl -gui}
 \end{alltt}
 
 原有的 \code{wizard} 和 \code{perltk}/\code{expert} 选项仍然存在。它们需要加入了
 XFT 支持的 \dirname{Perl::TK} 模块，\GNU/Linux 下通常都是这样，
 但其他系统下可能不是。要列出所有这些选项：
 \begin{alltt}
-> \Ucom{perl install-tl -help}
+  > \Ucom{perl install-tl -help}
 \end{alltt}
 
 \textbf{关于 Unix 下的权限：} 在安装过程中，\TL{} 安装程序将会
@@ -501,72 +501,72 @@ Mac\TeX\ 是严格依赖 \TL 构建的，所以主 \TeX\ 树和二进制文件�
 用户输入用 \Ucom{\texttt{bold}} 体表示。如果你正在安装程序目录下，只需要
 运行：
 \begin{alltt}
-> \Ucom{install-tl-windows}
+  > \Ucom{install-tl-windows}
 \end{alltt}
 
 或者你也可以通过绝对路径来运行，比如：
 \begin{alltt}
-> \Ucom{D:\bs{}texlive\bs{}install-tl-windows}
+  > \Ucom{D:\bs{}texlive\bs{}install-tl-windows}
 \end{alltt}
 这是对 \TK\ \DVD 而言的，假定 \dirname{D:} 是光驱。图~\ref{fig:basic-w32}
 展示了 \GUI\ 安装程序的初始基本屏幕，它是 Windows 下的默认形式。
 
 要在文本模式下安装，使用：
 \begin{alltt}
-> \Ucom{install-tl-windows -no-gui}
+  > \Ucom{install-tl-windows -no-gui}
 \end{alltt}
 
 要列出所有可用的选项：
 \begin{alltt}
-> \Ucom{install-tl-windows -help}
+  > \Ucom{install-tl-windows -help}
 \end{alltt}
 
 \begin{figure}[tb]
-\begin{boxedverbatim}
-Installing TeX Live 2020 from: ...
-Platform: x86_64-linux => 'GNU/Linux on x86_64'
-Distribution: inst (compressed)
-Directory for temporary files: /tmp
-...
- Detected platform: GNU/Linux on Intel x86_64
+  \begin{boxedverbatim}
+    Installing TeX Live 2020 from: ...
+    Platform: x86_64-linux => 'GNU/Linux on x86_64'
+    Distribution: inst (compressed)
+    Directory for temporary files: /tmp
+    ...
+    Detected platform: GNU/Linux on Intel x86_64
 
- <B> platforms: 1 out of 16
+    <B> platforms: 1 out of 16
 
- <S> Set installation scheme: scheme-full
+    <S> Set installation scheme: scheme-full
 
- <C> customizing installation collections
-     40 collections out of 41, disk space required: 6536 MB
+    <C> customizing installation collections
+    40 collections out of 41, disk space required: 6536 MB
 
- <D> directories:
-   TEXDIR (the main TeX directory):
-     /usr/local/texlive/2020
-   ...
+    <D> directories:
+    TEXDIR (the main TeX directory):
+    /usr/local/texlive/2020
+    ...
 
- <O> options:
-   ...
+    <O> options:
+    ...
 
- <V> set up for portable installation
+    <V> set up for portable installation
 
-Actions:
- <I> start installation to hard disk
- <P> save installation profile to 'texlive.profile' and exit
- <H> help
- <Q> quit
-\end{boxedverbatim}
-\vskip-\baselineskip
-\caption{文本安装程序主界面 (\GNU/Linux)}\label{fig:text-main}
+    Actions:
+    <I> start installation to hard disk
+    <P> save installation profile to 'texlive.profile' and exit
+    <H> help
+    <Q> quit
+  \end{boxedverbatim}
+  \vskip-\baselineskip
+  \caption{文本安装程序主界面 (\GNU/Linux)}\label{fig:text-main}
 \end{figure}
 
 \begin{figure}[tb]
-\tlpng{basic-w32}{.6\linewidth}
-\caption{基本安装界面 (Windows)；Advanced 按钮会提供类似
-图~\ref{fig:advanced-lnx} 的界面}\label{fig:basic-w32}
+  \tlpng{basic-w32}{.6\linewidth}
+  \caption{基本安装界面 (Windows)；Advanced 按钮会提供类似
+    图~\ref{fig:advanced-lnx} 的界面}\label{fig:basic-w32}
 \end{figure}
 
 \begin{figure}[tb]
-\tlpng{advanced-lnx}{\linewidth}
-\caption{高级 \GUI{} 安装界面
-  (\GNU/Linux)}\label{fig:advanced-lnx}
+  \tlpng{advanced-lnx}{\linewidth}
+  \caption{高级 \GUI{} 安装界面
+    (\GNU/Linux)}\label{fig:advanced-lnx}
 \end{figure}
 
 
@@ -578,10 +578,10 @@ Actions:
 \filename{perl} 和 \filename{wget} 软件包，如果你还没装过。此外
 还推荐安装下列软件包：
 \begin{itemize*}
-\item \filename{fontconfig} [\XeTeX\ 和 Lua\TeX\ 需要]
-\item \filename{ghostscript} [各种实用工具需要]
-\item \filename{libXaw7} [\code{xdvi} 需要]
-\item \filename{ncurses} [给安装程序提供 \code{clear} 命令]
+  \item \filename{fontconfig} [\XeTeX\ 和 Lua\TeX\ 需要]
+  \item \filename{ghostscript} [各种实用工具需要]
+  \item \filename{libXaw7} [\code{xdvi} 需要]
+  \item \filename{ncurses} [给安装程序提供 \code{clear} 命令]
 \end{itemize*}
 
 \subsubsection{文本界面安装程序}
@@ -602,7 +602,7 @@ Actions:
 默认的图形界面安装程序的初始界面很简单，只有几个选项；见图~\ref{fig:basic-w32}。
 它可以这样启动：
 \begin{alltt}
-> \Ucom{install-tl -gui}
+  > \Ucom{install-tl -gui}
 \end{alltt}
 按下 Advanced 按钮可以获得文本界面安装程序大部分的选项；见图~\ref{fig:advanced-lnx}。
 
@@ -621,28 +621,28 @@ Actions:
 \label{sec:binary}
 
 \begin{figure}[tb]
-\begin{boxedverbatim}
-Available platforms:
-===============================================================================
-   a [ ] Cygwin on Intel x86 (i386-cygwin)
-   b [ ] Cygwin on x86_64 (x86_64-cygwin)
-   c [ ] MacOSX current (10.13-) on x86_64 (x86_64-darwin)
-   d [ ] MacOSX legacy (10.6-) on x86_64 (x86_64-darwinlegacy)
-   e [ ] FreeBSD on x86_64 (amd64-freebsd)
-   f [ ] FreeBSD on Intel x86 (i386-freebsd)
-   g [ ] GNU/Linux on ARM64 (aarch64-linux)
-   h [ ] GNU/Linux on ARMv6/RPi (armhf-linux)
-   i [ ] GNU/Linux on Intel x86 (i386-linux)
-   j [X] GNU/Linux on x86_64 (x86_64-linux)
-   k [ ] GNU/Linux on x86_64 with musl (x86_64-linuxmusl)
-   l [ ] NetBSD on x86_64 (amd64-netbsd)
-   m [ ] NetBSD on Intel x86 (i386-netbsd)
-   o [ ] Solaris on Intel x86 (i386-solaris)
-   p [ ] Solaris on x86_64 (x86_64-solaris)
-   s [ ] Windows (win32)
-\end{boxedverbatim}
-\vskip-\baselineskip
-\caption{Binaries (二进制程序) 菜单}\label{fig:bin-text}
+  \begin{boxedverbatim}
+    Available platforms:
+    ===============================================================================
+    a [ ] Cygwin on Intel x86 (i386-cygwin)
+    b [ ] Cygwin on x86_64 (x86_64-cygwin)
+    c [ ] MacOSX current (10.13-) on x86_64 (x86_64-darwin)
+    d [ ] MacOSX legacy (10.6-) on x86_64 (x86_64-darwinlegacy)
+    e [ ] FreeBSD on x86_64 (amd64-freebsd)
+    f [ ] FreeBSD on Intel x86 (i386-freebsd)
+    g [ ] GNU/Linux on ARM64 (aarch64-linux)
+    h [ ] GNU/Linux on ARMv6/RPi (armhf-linux)
+    i [ ] GNU/Linux on Intel x86 (i386-linux)
+    j [X] GNU/Linux on x86_64 (x86_64-linux)
+    k [ ] GNU/Linux on x86_64 with musl (x86_64-linuxmusl)
+    l [ ] NetBSD on x86_64 (amd64-netbsd)
+    m [ ] NetBSD on Intel x86 (i386-netbsd)
+    o [ ] Solaris on Intel x86 (i386-solaris)
+    p [ ] Solaris on x86_64 (x86_64-solaris)
+    s [ ] Windows (win32)
+  \end{boxedverbatim}
+  \vskip-\baselineskip
+  \caption{Binaries (二进制程序) 菜单}\label{fig:bin-text}
 \end{figure}
 
 图~\ref{fig:bin-text} 展示了文本模式下的 binaries (二进制程序)
@@ -654,22 +654,22 @@ Available platforms:
 \label{sec:components}
 
 \begin{figure}[tbh]
-\begin{boxedverbatim}
-Select scheme:
-===============================================================================
- a [X] full scheme (everything)
- b [ ] medium scheme (small + more packages and languages)
- c [ ] small scheme (basic + xetex, metapost, a few languages)
- d [ ] basic scheme (plain and latex)
- e [ ] minimal scheme (plain only)
- f [ ] ConTeXt scheme
- g [ ] GUST TeX Live scheme
- h [ ] infrastructure-only scheme (no TeX at all)
- i [ ] teTeX scheme (more than medium, but nowhere near full)
- j [ ] custom selection of collections
-\end{boxedverbatim}
-\vskip-\baselineskip
-\caption{Scheme (安装方案) 菜单}\label{fig:scheme-text}
+  \begin{boxedverbatim}
+    Select scheme:
+    ===============================================================================
+    a [X] full scheme (everything)
+    b [ ] medium scheme (small + more packages and languages)
+    c [ ] small scheme (basic + xetex, metapost, a few languages)
+    d [ ] basic scheme (plain and latex)
+    e [ ] minimal scheme (plain only)
+    f [ ] ConTeXt scheme
+    g [ ] GUST TeX Live scheme
+    h [ ] infrastructure-only scheme (no TeX at all)
+    i [ ] teTeX scheme (more than medium, but nowhere near full)
+    j [ ] custom selection of collections
+  \end{boxedverbatim}
+  \vskip-\baselineskip
+  \caption{Scheme (安装方案) 菜单}\label{fig:scheme-text}
 \end{figure}
 
 图~\ref{fig:scheme-text} 展示了 \TL\ 的安装方案菜单；从这里你选择的是
@@ -681,8 +681,8 @@ Select scheme:
 专门针对特定国家的方案。
 
 \begin{figure}[tb]
-\tlpng{stdcoll}{.7\linewidth}
-\caption{Collections (集合) 菜单}\label{fig:collections-gui}
+  \tlpng{stdcoll}{.7\linewidth}
+  \caption{Collections (集合) 菜单}\label{fig:collections-gui}
 \end{figure}
 
 你可以使用 `collections' 菜单来详细
@@ -745,78 +745,78 @@ Collection (安装集合) 是比 scheme (方案) 要更细的一层 \Dash 实际
 \label{sec:options}
 
 \begin{figure}[tbh]
-\begin{boxedverbatim}
-Options customization:
- <P> use letter size instead of A4 by default: [ ]
- <E> execution of restricted list of programs: [X]
- <F> create all format files:                  [X]
- <D> install font/macro doc tree:              [X]
- <S> install font/macro source tree:           [X]
- <L> create symlinks in standard directories:  [ ]
-            binaries to:
-            manpages to:
-                info to:
- <Y> after install, set CTAN as source for package updates: [X]
-\end{boxedverbatim}
-\vskip-\baselineskip
-\caption{Options 菜单 (Unix)}\label{fig:options-text}
+  \begin{boxedverbatim}
+    Options customization:
+    <P> use letter size instead of A4 by default: [ ]
+    <E> execution of restricted list of programs: [X]
+    <F> create all format files:                  [X]
+    <D> install font/macro doc tree:              [X]
+    <S> install font/macro source tree:           [X]
+    <L> create symlinks in standard directories:  [ ]
+    binaries to:
+    manpages to:
+    info to:
+    <Y> after install, set CTAN as source for package updates: [X]
+  \end{boxedverbatim}
+  \vskip-\baselineskip
+  \caption{Options 菜单 (Unix)}\label{fig:options-text}
 \end{figure}
 
 图~\ref{fig:options-text} 显示了文本模式的选项菜单。关于这个菜单的
 每个选项：
 
 \begin{description}
-\item[use letter size instead of A4 by default:] 缺省的纸张大小选择。
-当然如果需要，每份文档都可以并且应该单独设定一个纸张大小。
+  \item[use letter size instead of A4 by default:] 缺省的纸张大小选择。
+    当然如果需要，每份文档都可以并且应该单独设定一个纸张大小。
 
-\item[execution of restricted list of programs:] 在 \TL\ 2010 中，
-默认允许执行一些外部程序。这 (很少的一部分) 允许的程序列表在
-\filename{texmf.cnf} 中定义。参见 2010 版新闻 (第~\ref{sec:2010news} 节)
-以了解更多信息。
+  \item[execution of restricted list of programs:] 在 \TL\ 2010 中，
+    默认允许执行一些外部程序。这 (很少的一部分) 允许的程序列表在
+    \filename{texmf.cnf} 中定义。参见 2010 版新闻 (第~\ref{sec:2010news} 节)
+    以了解更多信息。
 
-\item[create all format files:] 虽然创建不必要的格式文件会浪费一
-点时间，也会多占一些磁盘空间，但
-我们还是建议现在保持这个选项的选定状态，因为如果这次不生成，下次
-用到的时候格式文件就会在用户个人的 \dirname{TEXMFVAR} 目录树内生
-成。这样每次二进制文件或者断字模式更新的时候，这些格式文件也得不
-到更新，所以可能会导致它们的不兼容。
+  \item[create all format files:] 虽然创建不必要的格式文件会浪费一
+    点时间，也会多占一些磁盘空间，但
+    我们还是建议现在保持这个选项的选定状态，因为如果这次不生成，下次
+    用到的时候格式文件就会在用户个人的 \dirname{TEXMFVAR} 目录树内生
+    成。这样每次二进制文件或者断字模式更新的时候，这些格式文件也得不
+    到更新，所以可能会导致它们的不兼容。
 
-\item[install font/macro \ldots\ tree:] 下载安装大部分宏包中的文档和源代码文
-件。建议选择。
+  \item[install font/macro \ldots\ tree:] 下载安装大部分宏包中的文档和源代码文
+    件。建议选择。
 
-\item[create symlinks in standard directories:]
-这个选项 (只对 Unix 有效的) 可以省下设定环境变量的步骤。如果
-没有选择它，就必须把 \TL{} 的对应目录添加到 \envname{PATH},
-\envname{MANPATH} 和 \envname{INFOPATH} 中。如果要创建符号链
-接，你需要对这些目标目录的写权限。这个选项是为了在用户已知的
-标准目录中创建符号链接设计的，比如 \dirname{/usr/local/bin},
-这些目录并不包含任何 \TeX\ 文件。不要用这个选项来覆盖系统中
-现有的文件，比如给它指定系统目录。最保险和推荐的做法还是不要
-选择这个选项。
+  \item[create symlinks in standard directories:]
+    这个选项 (只对 Unix 有效的) 可以省下设定环境变量的步骤。如果
+    没有选择它，就必须把 \TL{} 的对应目录添加到 \envname{PATH},
+    \envname{MANPATH} 和 \envname{INFOPATH} 中。如果要创建符号链
+    接，你需要对这些目标目录的写权限。这个选项是为了在用户已知的
+    标准目录中创建符号链接设计的，比如 \dirname{/usr/local/bin},
+    这些目录并不包含任何 \TeX\ 文件。不要用这个选项来覆盖系统中
+    现有的文件，比如给它指定系统目录。最保险和推荐的做法还是不要
+    选择这个选项。
 
-\item[after install, set CTAN as source for package updates:]
-从 \DVD\ 安装时，这个选项
-被缺省启用，因为通常你会希望在此后通过 \CTAN\ 安装一年内更新的软件
-包。禁用它唯一可能的原因是你只安装了 \DVD\ 内容的一部分，计划在以后
-扩展安装。无论如何，安装程序时和安装后的更新的软件包仓库如果需要可
-以分别设置，见第~\ref{sec:location}~节和
-第~\ref{sec:dvd-install-net-updates}~节。
+  \item[after install, set CTAN as source for package updates:]
+    从 \DVD\ 安装时，这个选项
+    被缺省启用，因为通常你会希望在此后通过 \CTAN\ 安装一年内更新的软件
+    包。禁用它唯一可能的原因是你只安装了 \DVD\ 内容的一部分，计划在以后
+    扩展安装。无论如何，安装程序时和安装后的更新的软件包仓库如果需要可
+    以分别设置，见第~\ref{sec:location}~节和
+    第~\ref{sec:dvd-install-net-updates}~节。
 \end{description}
 
 Windows 专有的选项，在高级 Perl/Tk 界面中显示有：
 \begin{description}
-\item[adjust PATH setting in registry] 保证所有程序都可以在它们的
-搜索路径中找到 \TL{} 程序目录。
+  \item[adjust PATH setting in registry] 保证所有程序都可以在它们的
+    搜索路径中找到 \TL{} 程序目录。
 
-\item[add menu shortcuts] 如果选择了，它会在开始菜单中创建一个 \TL{}
-子菜单。除了 `TeX Live menu' 和 `No shortcuts' 之外，还有 `Launcher entry'
-这个选项。这个选项在第 \ref{sec:sharedinstall} 节有详细叙述。
+  \item[add menu shortcuts] 如果选择了，它会在开始菜单中创建一个 \TL{}
+    子菜单。除了 `TeX Live menu' 和 `No shortcuts' 之外，还有 `Launcher entry'
+    这个选项。这个选项在第 \ref{sec:sharedinstall} 节有详细叙述。
 
-\item[change file associations] The options are `Only new' (create
-  file associations, but do not overwrite existing ones), `All' and
-  `None'.
+  \item[change file associations] The options are `Only new' (create
+    file associations, but do not overwrite existing ones), `All' and
+    `None'.
 
-\item[install \TeX{}works front end]
+  \item[install \TeX{}works front end]
 \end{description}
 
 如果所有的设置已经齐备，你就可以在文本界面中按下 `I'，或者图形界面
@@ -828,47 +828,47 @@ Windows 专有的选项，在高级 Perl/Tk 界面中显示有：
 
 输入
 \begin{alltt}
-> \Ucom{install-tl -help}
+  > \Ucom{install-tl -help}
 \end{alltt}
 可以列出所有的命令行参数。你既可以用 |-| 也可以用 |--| 来指定一个
 参数。这里有些比较常见的：
 
 \begin{ttdescription}
-\item[-gui] 尽可能用 \GUI{} 模式的安装程序。它需要 Tcl/Tk 版本 8.5 以上。在
+  \item[-gui] 尽可能用 \GUI{} 模式的安装程序。它需要 Tcl/Tk 版本 8.5 以上。在
   \MacOSX\ 上和 \TL{} 的 Windows 分发中已经满足这个条件了。原有的
   \texttt{-gui=perltk} 和 \texttt{-gui=wizard} 选项需要安装了编译进 XFT 支持的
   Perl/Tk 模块 (\url{https://tug.org/texlive/distro.html#perltk})；
   如果找不到 Perl/Tk，安装程序就会在文本模式下出现。
 
-\item[-no-gui] 强制使用文本模式安装程序。
+  \item[-no-gui] 强制使用文本模式安装程序。
 
-\item[-lang {\sl LL}] 指定安装程序界面的语言，使用标准的 (通常是两个
-两个字符) 语言代码。安装程序会尝试自己判断出合适的语言，如果判断出的
-语言没有支持就会使用英语替代。可以运行 \verb|install-tl --help| 获得
-支持的语言列表。
+  \item[-lang {\sl LL}] 指定安装程序界面的语言，使用标准的 (通常是两个
+  两个字符) 语言代码。安装程序会尝试自己判断出合适的语言，如果判断出的
+  语言没有支持就会使用英语替代。可以运行 \verb|install-tl --help| 获得
+  支持的语言列表。
 
-\item[-portable] 为比如 \USB{} 盘上便携使用安装。也可以在
-文本安装程序中用 \code{V} 命令选择，或者 GUI 安装程序中选择，
-参见第 \ref{sec:portable-tl} 节。
+  \item[-portable] 为比如 \USB{} 盘上便携使用安装。也可以在
+  文本安装程序中用 \code{V} 命令选择，或者 GUI 安装程序中选择，
+  参见第 \ref{sec:portable-tl} 节。
 
-\item[-profile {\sl profile}] 载入安装配置文件 \var{file} 以不需要
-用户干预的方式完成安装。安装程序会在安装到的 \dirname{tlpkg}
-子目录中创建一个叫 \filename{texlive.profile} 的文件。这个文件可以
-用作参数，在不同的系统下完成完全一致的安装。或者你也可以使用一个定
-制的配置文件，一般通过裁剪生成的文件得到，或者空文件，这样安装时会
-使用所有缺省值。
+  \item[-profile {\sl profile}] 载入安装配置文件 \var{file} 以不需要
+  用户干预的方式完成安装。安装程序会在安装到的 \dirname{tlpkg}
+  子目录中创建一个叫 \filename{texlive.profile} 的文件。这个文件可以
+  用作参数，在不同的系统下完成完全一致的安装。或者你也可以使用一个定
+  制的配置文件，一般通过裁剪生成的文件得到，或者空文件，这样安装时会
+  使用所有缺省值。
 
-\item [-repository {\sl url-or-directory}] 指定作为来源的软件包仓库，
-参见下文。
+  \item [-repository {\sl url-or-directory}] 指定作为来源的软件包仓库，
+  参见下文。
 
-\htmlanchor{opt-in-place}
-\item[-in-place] (补充说明：除非你清楚自己要做什么，否则不要使用这个选项。)
-如果你已经有一份用 rsync, svn, 或者其他方式安装的
-\TL{} (参见 \url{https://tug.org/texlive/acquire-mirror.html}) 那
-这个选项会使用现有的，只执行必要的安装后操作。注意 \filename{tlpkg/texlive.tlpdb}
-文件会被覆盖，你需要自己备份它。另外，文件的删除必须手动完成。所以
-只在你知道自己在干什么的情况下才用它。这个选项不能在安装程序界面中
-选择。
+  \htmlanchor{opt-in-place}
+  \item[-in-place] (补充说明：除非你清楚自己要做什么，否则不要使用这个选项。)
+  如果你已经有一份用 rsync, svn, 或者其他方式安装的
+  \TL{} (参见 \url{https://tug.org/texlive/acquire-mirror.html}) 那
+  这个选项会使用现有的，只执行必要的安装后操作。注意 \filename{tlpkg/texlive.tlpdb}
+  文件会被覆盖，你需要自己备份它。另外，文件的删除必须手动完成。所以
+  只在你知道自己在干什么的情况下才用它。这个选项不能在安装程序界面中
+  选择。
 
 \end{ttdescription}
 
@@ -918,18 +918,18 @@ GNU/Linux、默认的目录设置为例，需要修改的文件是 \filename{$HO
 这样：
 
 \begin{sverbatim}
-PATH=/usr/local/texlive/2020/bin/i386-linux:$PATH; export PATH
-MANPATH=/usr/local/texlive/2020/texmf-dist/doc/man:$MANPATH; export MANPATH
-INFOPATH=/usr/local/texlive/2020/texmf-dist/doc/info:$INFOPATH; export INFOPATH
+  PATH=/usr/local/texlive/2020/bin/i386-linux:$PATH; export PATH
+    MANPATH=/usr/local/texlive/2020/texmf-dist/doc/man:$MANPATH; export MANPATH
+  INFOPATH=/usr/local/texlive/2020/texmf-dist/doc/info:$INFOPATH; export INFOPATH
 \end{sverbatim}
 
 对于 csh 或者 tcsh，需要修改的文件通常是 \filename{$HOME/.cshrc}，而
 应该添加的内容类似：
 
 \begin{sverbatim}
-setenv PATH /usr/local/texlive/2020/bin/i386-linux:$PATH
-setenv MANPATH /usr/local/texlive/2020/texmf-dist/doc/man:$MANPATH
-setenv INFOPATH /usr/local/texlive/2020/texmf-dist/doc/info:$INFOPATH
+  setenv PATH /usr/local/texlive/2020/bin/i386-linux:$PATH
+    setenv MANPATH /usr/local/texlive/2020/texmf-dist/doc/man:$MANPATH
+  setenv INFOPATH /usr/local/texlive/2020/texmf-dist/doc/info:$INFOPATH
 \end{sverbatim}
 
 如果你已经在你的配置文件里写过了这样的路径设置，那就只需要
@@ -946,8 +946,8 @@ setenv INFOPATH /usr/local/texlive/2020/texmf-dist/doc/info:$INFOPATH
 这个文件是否存在，如果有的话，添加下面这样的内容：
 
 \begin{sverbatim}
-MANPATH_MAP /usr/local/texlive/2020/bin/i386-linux \
-            /usr/local/texlive/2020/texmf-dist/doc/man
+  MANPATH_MAP /usr/local/texlive/2020/bin/i386-linux \
+  /usr/local/texlive/2020/texmf-dist/doc/man
 \end{sverbatim}
 
 然后 2)~检查 \filename{/etc/environment} 是否定义了默认的搜索路径
@@ -965,7 +965,7 @@ MANPATH_MAP /usr/local/texlive/2020/bin/i386-linux \
 (如上一节所述) \emph{之后}执行这个命令：
 
 \begin{alltt}
-> \Ucom{tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet}
+  > \Ucom{tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet}
 \end{alltt}
 
 这告诉 \cmdname{tlmgr} 从就近的 \CTAN\ 镜像获取未来更新。
@@ -994,17 +994,17 @@ MANPATH_MAP /usr/local/texlive/2020/bin/i386-linux \
 要在整个系统中使用 \TL{} 的字体 (假定你有足够的权限)，请依照下面的
 步骤来做：
 \begin{enumerate*}
-\item 将 \filename{texlive-fontconfig.conf} 文件复制到
-\dirname{/etc/fonts/conf.d/09-texlive.conf}。
-\item 运行 \Ucom{fc-cache -fsv}。
+  \item 将 \filename{texlive-fontconfig.conf} 文件复制到
+  \dirname{/etc/fonts/conf.d/09-texlive.conf}。
+  \item 运行 \Ucom{fc-cache -fsv}。
 \end{enumerate*}
 
 如果你没有足够的权限执行上述操作，或者只需要把 \TL{} 字体提供给你自
 己，可以这么做：
 \begin{enumerate*}
-\item 将 \filename{texlive-fontconfig.conf} 文件复制到
-      \filename{~/.fonts.conf}，其中 \filename{~} 是你的主目录。
-\item 运行 \Ucom{fc-cache -fv}。
+  \item 将 \filename{texlive-fontconfig.conf} 文件复制到
+  \filename{~/.fonts.conf}，其中 \filename{~} 是你的主目录。
+  \item 运行 \Ucom{fc-cache -fv}。
 \end{enumerate*}
 
 你可以运行 \code{fc-list} 来查看系统字体的名称。命令
@@ -1022,7 +1022,7 @@ MANPATH_MAP /usr/local/texlive/2020/bin/i386-linux \
 MkIV 用户必须执行：
 
 \begin{sverbatim}
-context --generate
+  context --generate
 \end{sverbatim}
 来刷新 \ConTeXt{} 磁盘缓存数据。
 生成的文件会被保存在 \code{TEXMFCACHE} 目录下，在 \TL{} 中这个目录
@@ -1099,90 +1099,90 @@ Windows 下的 \verb|%SystemDrive%\texlive\texmf-local|) 这个目录就是为�
 
 \begin{enumerate}
 
-\item 首先确认你可以执行 \cmdname{tex} 程序：
-\begin{alltt}
-> \Ucom{tex -{}-version}
-TeX 3.14159265 (TeX Live ...)
-Copyright ... D.E. Knuth.
-...
-\end{alltt}
-如果返回的结果是 `command not found' 而非版本和版权信息，或者显示了
-旧版本的信息，很有可能是因为你没有把正确的 \dirname{bin} 子目录添加
-到 \envname{PATH} 中。参见第~\pageref{sec:env}~页关于设置环境变量
-的说明。
+  \item 首先确认你可以执行 \cmdname{tex} 程序：
+        \begin{alltt}
+          > \Ucom{tex -{}-version}
+          TeX 3.14159265 (TeX Live ...)
+          Copyright ... D.E. Knuth.
+          ...
+        \end{alltt}
+        如果返回的结果是 `command not found' 而非版本和版权信息，或者显示了
+        旧版本的信息，很有可能是因为你没有把正确的 \dirname{bin} 子目录添加
+        到 \envname{PATH} 中。参见第~\pageref{sec:env}~页关于设置环境变量
+        的说明。
 
-\item 处理一个基本的 \LaTeX{} 文件：
-\begin{alltt}
-> \Ucom{latex sample2e.tex}
-This is pdfTeX 3.14...
-...
-Output written on sample2e.dvi (3 pages, 7484 bytes).
-Transcript written on sample2e.log.
-\end{alltt}
-如果无法找到 \filename{sample2e.tex} 或其他什么文件，很可能是因为旧的环境变量
-或配置文件影响了判断。我们建议你重置所有 \TeX 相关的环境变量然后重试。(你可以
-让 \TeX{} 报告具体搜索的路径，以便仔细分析出错的原因。参见
-第~\pageref{sec:debugging}~页的``调试操作''一节以了解更多信息。)
+  \item 处理一个基本的 \LaTeX{} 文件：
+        \begin{alltt}
+          > \Ucom{latex sample2e.tex}
+          This is pdfTeX 3.14...
+          ...
+          Output written on sample2e.dvi (3 pages, 7484 bytes).
+          Transcript written on sample2e.log.
+        \end{alltt}
+        如果无法找到 \filename{sample2e.tex} 或其他什么文件，很可能是因为旧的环境变量
+        或配置文件影响了判断。我们建议你重置所有 \TeX 相关的环境变量然后重试。(你可以
+        让 \TeX{} 报告具体搜索的路径，以便仔细分析出错的原因。参见
+        第~\pageref{sec:debugging}~页的``调试操作''一节以了解更多信息。)
 
-\item 即时预览结果：
-\begin{alltt}
-> \Ucom{xdvi sample2e.dvi}    # Unix
-> \Ucom{dviout sample2e.dvi}  # Windows
-\end{alltt}
-你应该可以看到在新窗口中出现了一篇介绍 \LaTeX{} 基础的有趣文档。
-(如果你刚接触 \TeX\ 系统，还是值得一读的。) \cmdname{xdvi}
-需要运行在 X 窗口系统下才能工作，如果没有运行窗口环境或
-\envname{DISPLAY} 环境变量设置错误，都会得到
-\samp{Can't open display} 这句错误信息。
+  \item 即时预览结果：
+        \begin{alltt}
+          > \Ucom{xdvi sample2e.dvi}    # Unix
+          > \Ucom{dviout sample2e.dvi}  # Windows
+        \end{alltt}
+        你应该可以看到在新窗口中出现了一篇介绍 \LaTeX{} 基础的有趣文档。
+        (如果你刚接触 \TeX\ 系统，还是值得一读的。) \cmdname{xdvi}
+        需要运行在 X 窗口系统下才能工作，如果没有运行窗口环境或
+        \envname{DISPLAY} 环境变量设置错误，都会得到
+        \samp{Can't open display} 这句错误信息。
 
-\item 创建用于打印或显示的 \PS{} 文件：
-\begin{alltt}
-> \Ucom{dvips sample2e.dvi -o sample2e.ps}
-\end{alltt}
+  \item 创建用于打印或显示的 \PS{} 文件：
+        \begin{alltt}
+          > \Ucom{dvips sample2e.dvi -o sample2e.ps}
+        \end{alltt}
 
-\item 创建 PDF 文件而非 \dvi{}，这里采用直接处理 \filename{.tex}
-文件输出 PDF 的方式：
-\begin{alltt}
-> \Ucom{pdflatex sample2e.tex}
-\end{alltt}
+  \item 创建 PDF 文件而非 \dvi{}，这里采用直接处理 \filename{.tex}
+        文件输出 PDF 的方式：
+        \begin{alltt}
+          > \Ucom{pdflatex sample2e.tex}
+        \end{alltt}
 
-\item 预览 PDF 文件：
-\begin{alltt}
-> \Ucom{gv sample2e.pdf}
-\textrm{或：}
-> \Ucom{xpdf sample2e.pdf}
-\end{alltt}
-\cmdname{gv} 和 \cmdname{xpdf} 现在都不包含在 \TL{} 中，你
-必须单独安装它们。请分别参阅 \url{https://www.gnu.org/software/gv} 和
-\url{https://www.xpdfreader.com}。(还有许多其他的 PDF 查看器。)
-Windows 下我们推荐 Sumatra PDF
-(\url{https://www.sumatrapdfreader.org/free-pdf-reader.html})。
+  \item 预览 PDF 文件：
+        \begin{alltt}
+          > \Ucom{gv sample2e.pdf}
+          \textrm{或：}
+          > \Ucom{xpdf sample2e.pdf}
+        \end{alltt}
+        \cmdname{gv} 和 \cmdname{xpdf} 现在都不包含在 \TL{} 中，你
+        必须单独安装它们。请分别参阅 \url{https://www.gnu.org/software/gv} 和
+        \url{https://www.xpdfreader.com}。(还有许多其他的 PDF 查看器。)
+        Windows 下我们推荐 Sumatra PDF
+        (\url{https://www.sumatrapdfreader.org/free-pdf-reader.html})。
 
-\item 除 \filename{sample2e.tex} 外可能会对你有用的标准测试文件：
+  \item 除 \filename{sample2e.tex} 外可能会对你有用的标准测试文件：
 
-\begin{ttdescription}
-\item [small2e.tex] 比 \filename{sample2e} 更为简单的文档，供你在遇到问题
-时尝试减少输入的内容。
-\item [testpage.tex] 测试你的打印机是否带有预设的偏移量。
-\item [nfssfont.tex] 打印一份字体表格 (proofsheet) 以供测试。
-\item [testfont.tex] 用 plain \TeX{} 打印字体表格。
-\item [story.tex] 最经典的 (plain) \TeX{} 测试文件。在执行
-\samp{tex story.tex} 之后，你还要在 \code{*} 提示符下键入 \samp{\bs bye}。
-\end{ttdescription}
-你可以用与我们处理 \filename{sample2e.tex} 文件时相同的方式来处理这些文件。
+        \begin{ttdescription}
+          \item [small2e.tex] 比 \filename{sample2e} 更为简单的文档，供你在遇到问题
+          时尝试减少输入的内容。
+          \item [testpage.tex] 测试你的打印机是否带有预设的偏移量。
+          \item [nfssfont.tex] 打印一份字体表格 (proofsheet) 以供测试。
+          \item [testfont.tex] 用 plain \TeX{} 打印字体表格。
+          \item [story.tex] 最经典的 (plain) \TeX{} 测试文件。在执行
+          \samp{tex story.tex} 之后，你还要在 \code{*} 提示符下键入 \samp{\bs bye}。
+        \end{ttdescription}
+        你可以用与我们处理 \filename{sample2e.tex} 文件时相同的方式来处理这些文件。
 
-\item 如果你安装了 \filename{xetex} 包，可以按如下步骤测试它能否访问系统字体：
-\begin{alltt}
-> \Ucom{xetex opentype-info.tex}
-This is XeTeX, Version 3.14\dots
-...
-Output written on opentype-info.pdf (1 page).
-Transcript written on opentype-info.log.
-\end{alltt}
+  \item 如果你安装了 \filename{xetex} 包，可以按如下步骤测试它能否访问系统字体：
+        \begin{alltt}
+          > \Ucom{xetex opentype-info.tex}
+          This is XeTeX, Version 3.14\dots
+          ...
+          Output written on opentype-info.pdf (1 page).
+          Transcript written on opentype-info.log.
+        \end{alltt}
 
-如果你收到 ``Invalid fontname `Latin Modern Roman/ICU'\dots'' 这样
-的错误信息，就说明需要配置系统才能找到 \TL{} 自带的字体。
-参见第~\ref{sec:font-conf-sys}~节。
+        如果你收到 ``Invalid fontname `Latin Modern Roman/ICU'\dots'' 这样
+        的错误信息，就说明需要配置系统才能找到 \TL{} 自带的字体。
+        参见第~\ref{sec:font-conf-sys}~节。
 
 \end{enumerate}
 
@@ -1193,36 +1193,36 @@ Transcript written on opentype-info.log.
 
 这里是一些你可能会考虑安装的其他工具的链接。
 \begin{description}
-\item[Ghostscript] \url{https://ghostscript.com/}
-\item[Perl] \url{https://perl.org/} 与 CPAN 中的补充包，
+  \item[Ghostscript] \url{https://ghostscript.com/}
+  \item[Perl] \url{https://perl.org/} 与 CPAN 中的补充包，
     \url{https://cpan.org/}
-\item[ImageMagick] \url{https://imagemagick.org}, 用于图形处理和转换
-\item[NetPBM] \url{http://netpbm.sourceforge.net}, 同样用于图形。
+  \item[ImageMagick] \url{https://imagemagick.org}, 用于图形处理和转换
+  \item[NetPBM] \url{http://netpbm.sourceforge.net}, 同样用于图形。
 
-\item[面向 \TeX\ 的编辑器] 有很广泛的选择，一般依用户个人的口味而定。这
-     里按字典序列出了一些 (部分是 Windows 才有的)。
-  \begin{itemize*}
-  \item \cmdname{GNU Emacs} 在 Windows 下也有原生版本，参见
-        \url{https://www.gnu.org/software/emacs/emacs.html}。
-  \item \cmdname{Emacs 的 Auc\TeX\ 包} 的 Windows 版本在 \CTAN\ 提供。
-        AuC\TeX\ 的主页在 \url{https://www.gnu.org/software/auctex}。
-  \item \cmdname{SciTE} 在
-        \url{https://www.scintilla.org/SciTE.html} 提供。
-  \item \cmdname{Texmaker} 是自由软件，在
-        \url{https://www.xm1math.net/texmaker} 提供。
-  \item \cmdname{TeXstudio} 是 \cmdname{Texmaker} 的一个
-  fork，引入了额外的功能；\url{https://texstudio.org}。
-  \item \cmdname{TeXnicCenter} 是自由软件，在
-        \url{https://www.texniccenter.org} 提供，也随 pro\TeX{}t
-        发行版附带。
-  \item \cmdname{TeXworks} 是自由软件，在 \url{https://tug.org/texworks} 提供，也
-        作为 \TL{} 的一部分只在 Windows 被安装。
-  \item \cmdname{Vim} 是自由软件，在
-        \url{https://www.vim.org} 提供。
-  \item \cmdname{WinEdt} 是共享软件，在
-        \url{https://tug.org/winedt} 或 \url{https://www.winedt.com} 提供。
-  \item \cmdname{WinShell} 在 \url{https://www.winshell.de} 提供。
-  \end{itemize*}
+  \item[面向 \TeX\ 的编辑器] 有很广泛的选择，一般依用户个人的口味而定。这
+    里按字典序列出了一些 (部分是 Windows 才有的)。
+    \begin{itemize*}
+      \item \cmdname{GNU Emacs} 在 Windows 下也有原生版本，参见
+      \url{https://www.gnu.org/software/emacs/emacs.html}。
+      \item \cmdname{Emacs 的 Auc\TeX\ 包} 的 Windows 版本在 \CTAN\ 提供。
+      AuC\TeX\ 的主页在 \url{https://www.gnu.org/software/auctex}。
+      \item \cmdname{SciTE} 在
+      \url{https://www.scintilla.org/SciTE.html} 提供。
+      \item \cmdname{Texmaker} 是自由软件，在
+      \url{https://www.xm1math.net/texmaker} 提供。
+      \item \cmdname{TeXstudio} 是 \cmdname{Texmaker} 的一个
+      fork，引入了额外的功能；\url{https://texstudio.org}。
+      \item \cmdname{TeXnicCenter} 是自由软件，在
+      \url{https://www.texniccenter.org} 提供，也随 pro\TeX{}t
+      发行版附带。
+      \item \cmdname{TeXworks} 是自由软件，在 \url{https://tug.org/texworks} 提供，也
+      作为 \TL{} 的一部分只在 Windows 被安装。
+      \item \cmdname{Vim} 是自由软件，在
+      \url{https://www.vim.org} 提供。
+      \item \cmdname{WinEdt} 是共享软件，在
+      \url{https://tug.org/winedt} 或 \url{https://www.winedt.com} 提供。
+      \item \cmdname{WinShell} 在 \url{https://www.winshell.de} 提供。
+    \end{itemize*}
 \end{description}
 关于这类软件包和程序，\url{https://tug.org/interest.html} 有一份更长的列表。
 
@@ -1285,32 +1285,32 @@ TEXMFLOCAL = $SELFAUTOGRANDPARENT/../texmf-local
 
 
 \begin{figure}[tb]
-\tlpng{tlshell-macos}{\linewidth}
-\caption{\prog{tlshell} \GUI, 显示了 Actions 菜单 (\MacOSX)}
-\label{fig:tlshell}
+  \tlpng{tlshell-macos}{\linewidth}
+  \caption{\prog{tlshell} \GUI, 显示了 Actions 菜单 (\MacOSX)}
+  \label{fig:tlshell}
 \end{figure}
 
 \begin{figure}[tb]
-\tlpng{tlcockpit-packages}{.8\linewidth}
-\caption{\prog{tlmgr} 的 \prog{tlcockpit} \GUI{}}
-\label{fig:tlcockpit}
+  \tlpng{tlcockpit-packages}{.8\linewidth}
+  \caption{\prog{tlmgr} 的 \prog{tlcockpit} \GUI{}}
+  \label{fig:tlcockpit}
 \end{figure}
 
 \begin{figure}[tb]
-\tlpng{tlmgr-gui}{\linewidth}
-\caption{旧有的 \prog{tlmgr} \GUI\ 模式：按下 `Load' 后的主窗口}
-\label{fig:tlmgr-gui}
+  \tlpng{tlmgr-gui}{\linewidth}
+  \caption{旧有的 \prog{tlmgr} \GUI\ 模式：按下 `Load' 后的主窗口}
+  \label{fig:tlmgr-gui}
 \end{figure}
 
 \TL{} 包含一个叫 \prog{tlmgr} 的程序，它可以用来管理安装后的
 系统。它的功能包括：
 
 \begin{itemize*}
-\item 列出方案 (scheme)，集合和安装包；
-\item 安装、升级、备份、恢复、卸载软件包，并且能自动计算依赖关系；
-\item 查找和列出软件包以及它们的描述；
-\item 列出、添加和删除不同平台的可执行文件；
-\item 改变安装选项，比如纸张大小和源文件位置 (参见第~\ref{sec:location}~节)。
+  \item 列出方案 (scheme)，集合和安装包；
+  \item 安装、升级、备份、恢复、卸载软件包，并且能自动计算依赖关系；
+  \item 查找和列出软件包以及它们的描述；
+  \item 列出、添加和删除不同平台的可执行文件；
+  \item 改变安装选项，比如纸张大小和源文件位置 (参见第~\ref{sec:location}~节)。
 \end{itemize*}
 
 \prog{tlmgr} 的功能已经完全覆盖了 \prog{texconfig} 原来的功能。考虑到有人已经习
@@ -1326,7 +1326,7 @@ JavaFX。这两个都是单独的安装包。
 
 \prog{tlmgr} 还有一个原生的 \GUI{} 模式 (见图~\ref{fig:tlmgr-gui})：
 \begin{alltt}
-> \Ucom{tlmgr -gui}
+  > \Ucom{tlmgr -gui}
 \end{alltt}
 但是 \GUI\ 扩展需要 Perl/Tk，而这个模块已经不再包含在 \TL\ 的 Windows Perl 分发
 中了。
@@ -1335,40 +1335,40 @@ JavaFX。这两个都是单独的安装包。
 
 在初始安装之后，你可以用下面的命令更新系统：
 \begin{alltt}
-> \Ucom{tlmgr update -all}
+  > \Ucom{tlmgr update -all}
 \end{alltt}
 如果这太激进了一点，先尝试：
 \begin{alltt}
-> \Ucom{tlmgr update -all -dry-run}
+  > \Ucom{tlmgr update -all -dry-run}
 \end{alltt}
 或 (产生更少输出)：
 \begin{alltt}
-> \Ucom{tlmgr update -list}
+  > \Ucom{tlmgr update -list}
 \end{alltt}
 
 下面这个更复杂一点的例子从本地目录添加了一个新的软件包集合，用于 \XeTeX\ 引擎。
 
 \begin{alltt}
-> \Ucom{tlmgr -repository /local/mirror/tlnet install collection-xetex}
+  > \Ucom{tlmgr -repository /local/mirror/tlnet install collection-xetex}
 \end{alltt}
 它会产生下面的输出 (节略部分)：
 \begin{fverbatim}
-install: collection-xetex
-install: arabxetex
-...
-install: xetex
-install: xetexconfig
-install: xetex.i386-linux
-running post install action for xetex
-install: xetex-def
-...
-running mktexlsr
-mktexlsr: Updating /usr/local/texlive/2020/texmf-dist/ls-R...
-...
-running fmtutil-sys --missing
-...
-Transcript written on xelatex.log.
-fmtutil: /usr/local/texlive/2020/texmf-var/web2c/xetex/xelatex.fmt installed.
+  install: collection-xetex
+  install: arabxetex
+  ...
+  install: xetex
+  install: xetexconfig
+  install: xetex.i386-linux
+  running post install action for xetex
+  install: xetex-def
+  ...
+  running mktexlsr
+  mktexlsr: Updating /usr/local/texlive/2020/texmf-dist/ls-R...
+  ...
+  running fmtutil-sys --missing
+  ...
+  Transcript written on xelatex.log.
+  fmtutil: /usr/local/texlive/2020/texmf-var/web2c/xetex/xelatex.fmt installed.
 \end{fverbatim}
 
 如你所见，\prog{tlmgr} 会安装所有依赖的包，也会处理所有包括刷新文件名
@@ -1377,23 +1377,23 @@ fmtutil: /usr/local/texlive/2020/texmf-var/web2c/xetex/xelatex.fmt installed.
 
 要描述一个包 (或者集合、安装方案):
 \begin{alltt}
-> \Ucom{tlmgr show collection-latexextra}
+  > \Ucom{tlmgr show collection-latexextra}
 \end{alltt}
 会产生这样的输出：
 \begin{fverbatim}
-package:    collection-latexextra
-category:   Collection
-shortdesc:  LaTeX supplementary packages
-longdesc:   A very large collection of add-on packages for LaTeX.
-installed:  Yes
-revision:   46963
-sizes:      657941k
+  package:    collection-latexextra
+  category:   Collection
+  shortdesc:  LaTeX supplementary packages
+  longdesc:   A very large collection of add-on packages for LaTeX.
+  installed:  Yes
+  revision:   46963
+  sizes:      657941k
 \end{fverbatim}
 
 最后也是最重要的，查阅 \url{https://tug.org/texlive/tlmgr.html}
 这里的完整文档，或者：
 \begin{alltt}
-> \Ucom{tlmgr -help}
+  > \Ucom{tlmgr -help}
 \end{alltt}
 
 \section{有关 Windows 平台的说明}
@@ -1404,20 +1404,20 @@ sizes:      657941k
 
 在 Windows 下，安装程序额外地做了以下一些事情：
 \begin{description}
-\item[菜单与快捷方式。] 在开始菜单上加入了新的`\TL{}'程序菜单，主要是一些
-\GUI{} 程序 (如 \prog{tlmgr}、\prog{texdoctk} 和一些文档的菜单。
-\item[文件关联。] 如果启用，\prog{TeXworks} 和 \prog{Dviout} 会成为它们对应文件
-类型的默认程序，或者在这些文件类型的“用...打开”右键菜单中出现。
-\item[位图到 eps 转换器。] 许多位图格式会在它们的“用...打开”菜单中获得一个
-  \cmdname{bitmap2eps} 项目。Bitmap2eps 是一个使用 \cmdname{sam2p} 或
-  \cmdname{bmeps} 的简单脚本。
-\item[自动路径调整。] 不需要手动配置步骤。
-\item[自动设置环境变量。] 不再需要手动的配置步骤。
-\item[反安装程序。] 安装程序为 \TL{} 创建了`添加/删除程序'条目。这与
-\TeX\ Live Manager \GUI\ 的删除按钮相对应。对于单用户安装，安装程序会在开始菜单
-创建卸载项目。
-\item[写保护。] 对于管理员安装，\TL\ 的目录会有写保护，至少在 \TL\ 被安装到 NTFS
-格式的本地磁盘时是这样的。
+  \item[菜单与快捷方式。] 在开始菜单上加入了新的`\TL{}'程序菜单，主要是一些
+    \GUI{} 程序 (如 \prog{tlmgr}、\prog{texdoctk} 和一些文档的菜单。
+  \item[文件关联。] 如果启用，\prog{TeXworks} 和 \prog{Dviout} 会成为它们对应文件
+    类型的默认程序，或者在这些文件类型的“用...打开”右键菜单中出现。
+  \item[位图到 eps 转换器。] 许多位图格式会在它们的“用...打开”菜单中获得一个
+    \cmdname{bitmap2eps} 项目。Bitmap2eps 是一个使用 \cmdname{sam2p} 或
+    \cmdname{bmeps} 的简单脚本。
+  \item[自动路径调整。] 不需要手动配置步骤。
+  \item[自动设置环境变量。] 不再需要手动的配置步骤。
+  \item[反安装程序。] 安装程序为 \TL{} 创建了`添加/删除程序'条目。这与
+    \TeX\ Live Manager \GUI\ 的删除按钮相对应。对于单用户安装，安装程序会在开始菜单
+    创建卸载项目。
+  \item[写保护。] 对于管理员安装，\TL\ 的目录会有写保护，至少在 \TL\ 被安装到 NTFS
+    格式的本地磁盘时是这样的。
 \end{description}
 
 另外，另一种方式可以参见 \filename{tlaunch}, 在第~\ref{sec:sharedinstall} 节有描述。
@@ -1428,30 +1428,30 @@ sizes:      657941k
 \TL{} 提供了以下缺失的部分。这些程序只在 \TL{} 的 Windows 版本中提供。
 
 \begin{description}
-\item[Perl 和 Ghostscript。] 由于 Perl 和  Ghostscript 的重要性，\TL{}
-提供了这些程序的`隐藏'拷贝。需要这些软件支持的 \TL{} 程序知道它们的位置，
-但它们不会通过环境变量和注册表设置来暴露所在的位置。它们不是完整的安装版，
-也不会与任何 Perl 或 Ghostscript 系统安装程序冲突。
+  \item[Perl 和 Ghostscript。] 由于 Perl 和  Ghostscript 的重要性，\TL{}
+    提供了这些程序的`隐藏'拷贝。需要这些软件支持的 \TL{} 程序知道它们的位置，
+    但它们不会通过环境变量和注册表设置来暴露所在的位置。它们不是完整的安装版，
+    也不会与任何 Perl 或 Ghostscript 系统安装程序冲突。
 
-\item[dviout。] 另外安装的还包括一款 DVI 预览程序 \prog{dviout}。
-当你第一次使用 \cmdname{dviout} 预览文件时，因为没有安装屏幕显示字体，它
-将生成字体。一段时间后，你所使用的大部分字体都将生成，随后，你将很少再看
-到生成字体的窗口。你可以从 (强烈推荐的) 在线帮助中获得更加详细的信息。
+  \item[dviout。] 另外安装的还包括一款 DVI 预览程序 \prog{dviout}。
+    当你第一次使用 \cmdname{dviout} 预览文件时，因为没有安装屏幕显示字体，它
+    将生成字体。一段时间后，你所使用的大部分字体都将生成，随后，你将很少再看
+    到生成字体的窗口。你可以从 (强烈推荐的) 在线帮助中获得更加详细的信息。
 
-\item[\TeX{}works.]  \TeX{}works 是一个集成了 PDF 阅读器的
-  \TeX\ 编辑器。
+  \item[\TeX{}works.]  \TeX{}works 是一个集成了 PDF 阅读器的
+    \TeX\ 编辑器。
 
-\item[命令行工具。] 与常见的 \TL{} 二进制文件一起，还安装了一些常见的
-Unix 命令行工具的 Windows 移植版本。它们包括 \cmdname{gzip}、
-\cmdname{unzip} 以及来自于 \cmdname{poppler} 套装中的一些工具
-(\cmdname{pdfinfo}, \cmdname{pdffonts}, \ldots)。
-虽然没有提供 Windows 版本的 PDF 阅读器，但有许多替代产品，其中之一是
-Sumatra PDF 阅读器，可以从 \url{https://sumatrapdfreader.org/} 获得。
+  \item[命令行工具。] 与常见的 \TL{} 二进制文件一起，还安装了一些常见的
+    Unix 命令行工具的 Windows 移植版本。它们包括 \cmdname{gzip}、
+    \cmdname{unzip} 以及来自于 \cmdname{poppler} 套装中的一些工具
+    (\cmdname{pdfinfo}, \cmdname{pdffonts}, \ldots)。
+    虽然没有提供 Windows 版本的 PDF 阅读器，但有许多替代产品，其中之一是
+    Sumatra PDF 阅读器，可以从 \url{https://sumatrapdfreader.org/} 获得。
 
-\item[fc-list、fc-cache, \ldots] 来自于 fontconfig 库的这些工具有助于 \XeTeX{}
-处理 Windows 的系统字体。你可以使用 \prog{fc-list} 来确定传递给经 \XeTeX
-扩展后的 \cs{font} 命令的字体名称。如果需要，首先运行 \prog{fc-cache} 更新
-字体信息。
+  \item[fc-list、fc-cache, \ldots] 来自于 fontconfig 库的这些工具有助于 \XeTeX{}
+    处理 Windows 的系统字体。你可以使用 \prog{fc-list} 来确定传递给经 \XeTeX
+    扩展后的 \cs{font} 命令的字体名称。如果需要，首先运行 \prog{fc-cache} 更新
+    字体信息。
 \end{description}
 
 
@@ -1518,10 +1518,10 @@ Windows 和 Cygwin (参见第~\ref{sec:cygwin}~节以了解 Cygwin 安装细节)
 如下内容：
 
 \begin{sverbatim}
-Windows Registry Editor Version 5.00
+  Windows Registry Editor Version 5.00
 
-[HKEY_LOCAL_MACHINE\Software\Cygwin]
-"heap_chunk_in_mb"=dword:ffffff00
+    [HKEY_LOCAL_MACHINE\Software\Cygwin]
+  "heap_chunk_in_mb"=dword:ffffff00
 \end{sverbatim}
 
 \noindent 然后以管理员身份执行命令 \code{regedit /s moremem.reg}。(如果
@@ -1546,27 +1546,27 @@ Windows Registry Editor Version 5.00
 源码。用这种方法处理的核心的 \TeX{} 程序包括：
 
 \begin{cmddescription}
-\item[bibtex]    维护参考文献。
-\item[dvicopy]   展开 \dvi{} 中的虚拟字体 (virtual font) 引用。
-\item[dvitomp]   将 \dvi{} 转换为 MPX (MetaPost 图片)。
-\item[dvitype]   将 \dvi{} 转换为可读文本。
-\item[gftodvi]   生成 Generic 格式字体的 proofsheet。
-\item[gftopk]    将 Generic 格式字体转换为 packed 格式字体。
-\item[gftype]    将 Generic 格式字体转换为可读文本。
-\item[mf]        创建字体。
-\item[mft]       以漂亮的方式排版输出 \MF{} 的代码。
-\item[mpost]     创建技术性插图。
-\item[patgen]    创建断字规则文件。
-\item[pktogf]    将 Packed 格式字体转换为 generic 格式字体。
-\item[pktype]    将 PK 格式转换为可读的文本。
-\item[pltotf]    将纯文本的 property list 转换为 TFM 格式。
-\item[pooltype]  显示 \web{} 的 pool 文件。
-\item[tangle]    将 \web{} 转换为 Pascal 代码。
-\item[tex]       排版。
-\item[tftopl]    将 TFM 格式转换为纯文本的 property list 格式。
-\item[vftovp]    将虚拟字体格式转换为 virtual property list 格式。
-\item[vptovf]    将 virtual property list 格式转换为虚拟字体格式。
-\item[weave]     将 \web{} 转换为 \TeX。
+  \item[bibtex]    维护参考文献。
+  \item[dvicopy]   展开 \dvi{} 中的虚拟字体 (virtual font) 引用。
+  \item[dvitomp]   将 \dvi{} 转换为 MPX (MetaPost 图片)。
+  \item[dvitype]   将 \dvi{} 转换为可读文本。
+  \item[gftodvi]   生成 Generic 格式字体的 proofsheet。
+  \item[gftopk]    将 Generic 格式字体转换为 packed 格式字体。
+  \item[gftype]    将 Generic 格式字体转换为可读文本。
+  \item[mf]        创建字体。
+  \item[mft]       以漂亮的方式排版输出 \MF{} 的代码。
+  \item[mpost]     创建技术性插图。
+  \item[patgen]    创建断字规则文件。
+  \item[pktogf]    将 Packed 格式字体转换为 generic 格式字体。
+  \item[pktype]    将 PK 格式转换为可读的文本。
+  \item[pltotf]    将纯文本的 property list 转换为 TFM 格式。
+  \item[pooltype]  显示 \web{} 的 pool 文件。
+  \item[tangle]    将 \web{} 转换为 Pascal 代码。
+  \item[tex]       排版。
+  \item[tftopl]    将 TFM 格式转换为纯文本的 property list 格式。
+  \item[vftovp]    将虚拟字体格式转换为 virtual property list 格式。
+  \item[vptovf]    将 virtual property list 格式转换为虚拟字体格式。
+  \item[weave]     将 \web{} 转换为 \TeX。
 \end{cmddescription}
 
 \noindent 这些程序的详细功能和调用语法都在其各自软件包的文档中有说明，在 \Webc{} 的文
@@ -1575,13 +1575,13 @@ Windows Registry Editor Version 5.00
 
 所有的程序都接受这些 \GNU 标准的选项：
 \begin{ttdescription}
-\item[-{}-help] 显示基本使用说明。
-\item[-{}-version] 显示版本信息，然后退出。
+  \item[-{}-help] 显示基本使用说明。
+  \item[-{}-version] 显示版本信息，然后退出。
 \end{ttdescription}
 
 而大部分都接受：
 \begin{ttdescription}
-\item[-{}-verbose] 显示详细的执行过程。
+  \item[-{}-verbose] 显示详细的执行过程。
 \end{ttdescription}
 
 所有的 \Webc{} 程序均使用 \KPS{} (\url{https://tug.org/kpathsea}) 路径搜索库来查找文件，
@@ -1619,12 +1619,12 @@ Windows Registry Editor Version 5.00
 
 \ifSingleColumn
 \else
-\begin{figure*}
-\verbatiminput{examples/ex5.tex}
-\setlength{\abovecaptionskip}{0pt}
-  \caption{一份示例性的配置文件的例子}
-  \label{fig:config-sample}
-\end{figure*}
+  \begin{figure*}
+    \verbatiminput{examples/ex5.tex}
+    \setlength{\abovecaptionskip}{0pt}
+    \caption{一份示例性的配置文件的例子}
+    \label{fig:config-sample}
+  \end{figure*}
 \fi
 
 \subsubsection{路径的来源}
@@ -1633,16 +1633,16 @@ Windows Registry Editor Version 5.00
 搜索路径可能来自许多地方，\KPS{} 是按照下面的顺序查找的：
 
 \begin{enumerate}
-\item
-  用户设置的环境变量，例如 \envname{TEXINPUTS}\@。以 . 连接某个程序名称的环境变量
-有更高的优先级，比如若正在运行的程序是 \samp{latex}，那 \envname{TEXINPUTS.latex}
-将比 \envname{TEXINPUTS} 优先级更高。
-\item
-  专门针对某个程序的配置文件，比如 \cmdname{dvips} 的 \file{config.ps} 里出现
-\samp{S /a:/b} 这样一行。
-\item   \KPS{} 配置文件 \file{texmf.cnf}，包含类似
-  \samp{TEXINPUTS=/c:/d} 这样的一行 (参见下面的解释)。
-\item 编译时的缺省值。
+  \item
+        用户设置的环境变量，例如 \envname{TEXINPUTS}\@。以 . 连接某个程序名称的环境变量
+        有更高的优先级，比如若正在运行的程序是 \samp{latex}，那 \envname{TEXINPUTS.latex}
+        将比 \envname{TEXINPUTS} 优先级更高。
+  \item
+        专门针对某个程序的配置文件，比如 \cmdname{dvips} 的 \file{config.ps} 里出现
+        \samp{S /a:/b} 这样一行。
+  \item   \KPS{} 配置文件 \file{texmf.cnf}，包含类似
+        \samp{TEXINPUTS=/c:/d} 这样的一行 (参见下面的解释)。
+  \item 编译时的缺省值。
 \end{enumerate}
 \noindent 你可以通过调试选项看到所有的这些值 (参见第~\pageref{sec:debugging}~页的
 ``调试操作'')。
@@ -1671,27 +1671,27 @@ Windows Registry Editor Version 5.00
 \verb|$TEXMF/texmf.cnf| 里边的优先。
 
 \begin{itemize*}
-\item
+  \item
   以 \code{\%}，要么在行首，要么在空白后面，表示单行注释。
-\item
+  \item
   忽略空行。
-\item
+  \item
   行末的 \bs{} 作为连接符，即把下一行直接接上。但保留下一行行首的空白。
-\item
+  \item
   所有剩余的行格式如下：\\
   \hspace*{2em}\texttt{\var{variable} \textrm{[}.\var{progname}\textrm{]}
   \textrm{[}=\textrm{]} \var{value}}\\[1pt]
   \samp{=} 号和空白都是可选的。
   (但如果 \var{value} 以 \samp{.} 起始，最好的办法是用 \samp{=} 来避免 \samp{.}
   被识别为程序名称。)
-\item
+  \item
   \ttvar{variable} (变量) 允许包含任何字符，除空白、\samp{=}、\samp{.}
   之外。不过只用 \samp{A-Za-z\_} 是最保险的。
-\item
+  \item
   如果 \samp{.\var{progname}} (程序名) 存在，则该定义只对正在运行的名叫
   \texttt{\var{progname}} 或 \texttt{\var{progname}.exe}
   的程序起作用。这可以让给不同种类的 \TeX{} 程序设置不同的搜索路径。
-\item 就像字符串一样，\var{value} 可以包含任何字符。但是，实际上大部分
+  \item 就像字符串一样，\var{value} 可以包含任何字符。但是，实际上大部分
   \file{texmf.cnf} 的值都和路径展开有关，而因为展开会用到多种特殊字符
   (参见第~\ref{sec:cnf-special-chars}~节)，比如大括号和逗号，所以它们
   不能用作路径名称。
@@ -1702,16 +1702,16 @@ Windows Registry Editor Version 5.00
   也不会在其他值里用到。
 
   \code{\$\var{var}.\var{prog}} 的功能在右侧无效，你必须多用一个变量才行。
-\item
+  \item
   在读入所有定义后再开始展开，所以你可以引用后边才定义的变量。
 \end{itemize*}
 展示上面所有内容的一段配置文件
 \ifSingleColumn
-如下:
+  如下:
 
-\verbatiminput{examples/ex5.tex}
+  \verbatiminput{examples/ex5.tex}
 \else
-见图~\ref{fig:config-sample}.
+  见图~\ref{fig:config-sample}.
 \fi
 
 \subsubsection{路径展开}
@@ -1731,7 +1731,7 @@ Windows Registry Editor Version 5.00
 在更次以及优先级的路径上。假设环境变量设置为
 
 \begin{alltt}
-> \Ucom{setenv TEXINPUTS /home/karl:}
+  > \Ucom{setenv TEXINPUTS /home/karl:}
 \end{alltt}
 
 而 \file{texmf.cnf} 里的 \code{TEXINPUTS} 值为
@@ -1790,17 +1790,17 @@ Windows Registry Editor Version 5.00
 % need a wider space for the item labels here.
 \newcommand{\CODE}[1]{\makebox[3em][l]{\code{#1}}}
 \begin{ttdescription}
-\item[\CODE{:}] 路径分隔符，在路径的前边或者末尾，或者在中间重复出现时，
-表示默认的展开方式。\par
-\item[\CODE{;}] 非 Unix 系统下的路径分隔符 (和 \code{:} 功能一样)。
-\item[\CODE{\$}] 变量展开。
-\item[\CODE{\string~}] 表示用户的个人主目录。
-\item[\CODE{\char`\{...\char`\}}] Brace expansion.
-\item[\CODE{,}] 在路径展开时分隔项目。
-\item[\CODE{//}] 子目录展开 (可以出现在除路径开头外的任意位置)。
-\item[\CODE{\%}] 注释的起始。
-\item[\CODE{\bs}] 在行末连接下一行的字符，以支持跨行的设置项。
-\item[\CODE{!!}] \emph{只}在数据库中搜索文件，\emph{不}搜寻磁盘。
+  \item[\CODE{:}] 路径分隔符，在路径的前边或者末尾，或者在中间重复出现时，
+  表示默认的展开方式。\par
+  \item[\CODE{;}] 非 Unix 系统下的路径分隔符 (和 \code{:} 功能一样)。
+  \item[\CODE{\$}] 变量展开。
+  \item[\CODE{\string~}] 表示用户的个人主目录。
+  \item[\CODE{\char`\{...\char`\}}] Brace expansion.
+  \item[\CODE{,}] 在路径展开时分隔项目。
+  \item[\CODE{//}] 子目录展开 (可以出现在除路径开头外的任意位置)。
+  \item[\CODE{\%}] 注释的起始。
+  \item[\CODE{\bs}] 在行末连接下一行的字符，以支持跨行的设置项。
+  \item[\CODE{!!}] \emph{只}在数据库中搜索文件，\emph{不}搜寻磁盘。
 \end{ttdescription}
 
 具体哪一个字符会被视为特殊字符还是不会，取决于它使用的上下文。这些规则在配置文件
@@ -1830,7 +1830,7 @@ Windows Registry Editor Version 5.00
 \samp{mktex} 脚本也可能会间接调用这个脚本。实际上，这个脚本只是执行下面的命令：
 
 \begin{alltt}
-cd \var{/your/texmf/root} && \path|\|ls -1LAR ./ >ls-R
+  cd \var{/your/texmf/root} && \path|\|ls -1LAR ./ >ls-R
 \end{alltt}
 
 意味着你的系统的 \code{ls} 命令的输出格式必须正确 (\GNU \code{ls} 是没
@@ -1848,7 +1848,7 @@ cd \var{/your/texmf/root} && \path|\|ls -1LAR ./ >ls-R
 脚本中使用得非常多)。
 
 \begin{alltt}
-> \Ucom{kpsewhich \var{option}\dots{} \var{filename}\dots{}}
+  > \Ucom{kpsewhich \var{option}\dots{} \var{filename}\dots{}}
 \end{alltt}
 \ttvar{option} 处的选项可以用 \samp{-} 也可以用 \samp{-{}-} 来起始，并接受
 任何不造成疑义的缩写。
@@ -1859,35 +1859,35 @@ cd \var{/your/texmf/root} && \path|\|ls -1LAR ./ >ls-R
 下面介绍了一些比较常见的选项。
 
 \begin{ttdescription}
-\item[\texttt{-{}-dpi=\var{num}}]\mbox{}
+  \item[\texttt{-{}-dpi=\var{num}}]\mbox{}
   将解析度设置为 \ttvar{num}，这个选项只影响 \samp{gf} 文件和 \samp{pk}
   文件的查找。为了与 \cmdname{dvips} 兼容，提供 \samp{-D}
   这个同义的参数，默认值是 600。
 
-\item[\texttt{-{}-format=\var{name}}]\mbox{}\\
+  \item[\texttt{-{}-format=\var{name}}]\mbox{}\\
   将查找的文件格式设置为 \ttvar{name}。默认情况下是通过文件名来猜测格式的。对于扩展名
-有二义性的格式，比如 \MP{} 支持文件和 \cmdname{dvips} 配置文件，必须以 \KPS{} 已知
-的名称指定格式，比如 \texttt{tex} 或 \texttt{enc files}。运行
+  有二义性的格式，比如 \MP{} 支持文件和 \cmdname{dvips} 配置文件，必须以 \KPS{} 已知
+  的名称指定格式，比如 \texttt{tex} 或 \texttt{enc files}。运行
   \texttt{kpsewhich -{}-help-formats} 会显示格式的列表。
 
-\item[\texttt{-{}-mode=\var{string}}]\mbox{}\\
+  \item[\texttt{-{}-mode=\var{string}}]\mbox{}\\
   设置模式为 \ttvar{string}，只影响 \samp{gf} 和 \samp{pk}
   文件的查找。默认情况匹配所有的模式。
-\item[\texttt{-{}-must-exist}]\mbox{}\\
+  \item[\texttt{-{}-must-exist}]\mbox{}\\
   尽一切可能找到文件，包括直接在磁盘上搜寻。默认情况下为了效率考虑，只检查
   \file{ls-R} 数据库里的内容。
-\item[\texttt{-{}-path=\var{string}}]\mbox{}\\
+  \item[\texttt{-{}-path=\var{string}}]\mbox{}\\
   不通过文件名来猜测路径，沿 \ttvar{string} 指出的路径搜索
   (也使用冒号分隔)。支持 \samp{//} 和所有常见的展开方式。\samp{-{}-path} 选项
   和 \samp{-{}-format} 选项是互斥的。
-\item[\texttt{-{}-progname=\var{name}}]\mbox{}\\
+  \item[\texttt{-{}-progname=\var{name}}]\mbox{}\\
   将执行查找的程序名称设为 \texttt{\var{name}}。
   这会通过 \texttt{.\var{progname}} 特性影响搜索路径。
   缺省值是 \cmdname{kpsewhich}。
-\item[\texttt{-{}-show-path=\var{name}}]\mbox{}\\
+  \item[\texttt{-{}-show-path=\var{name}}]\mbox{}\\
   显示用于查找 \texttt{\var{name}} 类型文件的路径。和 \samp{-{}-format}
   选项一样，可以使用扩展名 (\code{.pk}, \code{.vf}, 等等) 也可以使用全名。
-\item[\texttt{-{}-debug=\var{num}}]\mbox{}\\
+  \item[\texttt{-{}-debug=\var{num}}]\mbox{}\\
   将调试选项 (等级) 设置为 \texttt{\var{num}}。
 \end{ttdescription}
 
@@ -1898,30 +1898,30 @@ cd \var{/your/texmf/root} && \path|\|ls -1LAR ./ >ls-R
 现在我们看看实际使用 \KPS{} 的例子。这里是一个简单的搜索：
 
 \begin{alltt}
-> \Ucom{kpsewhich article.cls}
-   /usr/local/texmf-dist/tex/latex/base/article.cls
+  > \Ucom{kpsewhich article.cls}
+  /usr/local/texmf-dist/tex/latex/base/article.cls
 \end{alltt}
 我们寻找的是 \file{article.cls} 文件。因为 \samp{.cls} 后缀已经说明了文件的类型，所以
 我们不需要特别指明查找的是 \optname{tex} 类型的文件 (也就是要在 (\TeX{} 源文件目录下查找)。
 我们在 \samp{texmf-dist} 的 \file{tex/latex/base} 子目录下找到了这个文件。与之类似，
 下列所有文件都顺利找到，因为其扩展名没有二义。
 \begin{alltt}
-> \Ucom{kpsewhich array.sty}
-   /usr/local/texmf-dist/tex/latex/tools/array.sty
-> \Ucom{kpsewhich latin1.def}
-   /usr/local/texmf-dist/tex/latex/base/latin1.def
-> \Ucom{kpsewhich size10.clo}
-   /usr/local/texmf-dist/tex/latex/base/size10.clo
-> \Ucom{kpsewhich small2e.tex}
-   /usr/local/texmf-dist/tex/latex/base/small2e.tex
-> \Ucom{kpsewhich tugboat.bib}
-   /usr/local/texmf-dist/bibtex/bib/beebe/tugboat.bib
+  > \Ucom{kpsewhich array.sty}
+  /usr/local/texmf-dist/tex/latex/tools/array.sty
+  > \Ucom{kpsewhich latin1.def}
+  /usr/local/texmf-dist/tex/latex/base/latin1.def
+  > \Ucom{kpsewhich size10.clo}
+  /usr/local/texmf-dist/tex/latex/base/size10.clo
+  > \Ucom{kpsewhich small2e.tex}
+  /usr/local/texmf-dist/tex/latex/base/small2e.tex
+  > \Ucom{kpsewhich tugboat.bib}
+  /usr/local/texmf-dist/bibtex/bib/beebe/tugboat.bib
 \end{alltt}
 
 另外，最后一个是 \textsl{TUGBoat} 文章的 \BibTeX{} 参考文献数据库。
 
 \begin{alltt}
-> \Ucom{kpsewhich cmr10.pk}
+  > \Ucom{kpsewhich cmr10.pk}
 \end{alltt}
 
 \file{.pk} 类型的字体位图文件是给 \cmdname{dvips} 或者 \cmdname{xdvi}
@@ -1929,16 +1929,16 @@ cd \var{/your/texmf/root} && \path|\|ls -1LAR ./ >ls-R
 字体，所以没有找到任何内容\Dash \TL{} 默认使用 Type~1 版本的。
 
 \begin{alltt}
-> \Ucom{kpsewhich wsuipa10.pk}
-\ifSingleColumn   /usr/local/texmf-var/fonts/pk/ljfour/public/wsuipa/wsuipa10.600pk
-\else /usr/local/texmf-var/fonts/pk/ljfour/public/
-...                         wsuipa/wsuipa10.600pk
-\fi\end{alltt}
+  > \Ucom{kpsewhich wsuipa10.pk}
+  \ifSingleColumn   /usr/local/texmf-var/fonts/pk/ljfour/public/wsuipa/wsuipa10.600pk
+  \else /usr/local/texmf-var/fonts/pk/ljfour/public/
+    ...                         wsuipa/wsuipa10.600pk
+  \fi\end{alltt}
 
 而这个字体 (Washington 大学的一套注音字母表) 就需要生成 \samp{.pk} 文件了。我们默认的
 \MF{} 模式是 \texttt{ljfour}，基础解析度是 600\dpi{} (dots per inch)，所以会得到这样一个文件。
 \begin{alltt}
-> \Ucom{kpsewhich -dpi=300 wsuipa10.pk}
+  > \Ucom{kpsewhich -dpi=300 wsuipa10.pk}
 \end{alltt}
 
 一旦指明我们需要寻找的只是 300\dpi{} 的文件时 (\texttt{-dpi=300})，就会发现系统里
@@ -1952,12 +1952,12 @@ prologue 文件，然后检查通用配置文件 \file{config.ps} 和 \PS{} 字�
 \optname{dvips config}。
 
 \begin{alltt}
-> \Ucom{kpsewhich tex.pro}
-   /usr/local/texmf/dvips/base/tex.pro
-> \Ucom{kpsewhich --format="dvips config" config.ps}
-   /usr/local/texmf/dvips/config/config.ps
-> \Ucom{kpsewhich psfonts.map}
-   /usr/local/texmf/fonts/map/dvips/updmap/psfonts.map
+  > \Ucom{kpsewhich tex.pro}
+  /usr/local/texmf/dvips/base/tex.pro
+  > \Ucom{kpsewhich --format="dvips config" config.ps}
+  /usr/local/texmf/dvips/config/config.ps
+  > \Ucom{kpsewhich psfonts.map}
+  /usr/local/texmf/fonts/map/dvips/updmap/psfonts.map
 \end{alltt}
 
 这样我们可以更仔细地分析一下 URW Times 的 \PS{} 支持文件。依照标准的字体
@@ -1965,8 +1965,8 @@ prologue 文件，然后检查通用配置文件 \file{config.ps} 和 \PS{} 字�
 文件的名称：
 
 \begin{alltt}
-> \Ucom{kpsewhich --format="dvips config" config.utm}
-   /usr/local/texmf-dist/dvips/psnfss/config.utm
+  > \Ucom{kpsewhich --format="dvips config" config.utm}
+  /usr/local/texmf-dist/dvips/psnfss/config.utm
 \end{alltt}
 
 这个文件的内容是
@@ -1978,31 +1978,31 @@ prologue 文件，然后检查通用配置文件 \file{config.ps} 和 \PS{} 字�
 即指向 \file{utm.map} 文件，也就是我们下一步要找的。
 
 \begin{alltt}
-> \Ucom{kpsewhich utm.map}
-   /usr/local/texmf-dist/fonts/map/dvips/times/utm.map
+  > \Ucom{kpsewhich utm.map}
+  /usr/local/texmf-dist/fonts/map/dvips/times/utm.map
 \end{alltt}
 
 这个 map 文件定义了 URW 集合中的 Type~1 \PS{} 字体文件名。内容差不多是下边这样
 (我们只列出了其中一部分)：
 
 \begin{alltt}
-utmb8r  NimbusRomNo9L-Medi    ... <utmb8a.pfb
-utmbi8r NimbusRomNo9L-MediItal... <utmbi8a.pfb
-utmr8r  NimbusRomNo9L-Regu    ... <utmr8a.pfb
-utmri8r NimbusRomNo9L-ReguItal... <utmri8a.pfb
-utmbo8r NimbusRomNo9L-Medi    ... <utmb8a.pfb
-utmro8r NimbusRomNo9L-Regu    ... <utmr8a.pfb
+  utmb8r  NimbusRomNo9L-Medi    ... <utmb8a.pfb
+  utmbi8r NimbusRomNo9L-MediItal... <utmbi8a.pfb
+  utmr8r  NimbusRomNo9L-Regu    ... <utmr8a.pfb
+  utmri8r NimbusRomNo9L-ReguItal... <utmri8a.pfb
+  utmbo8r NimbusRomNo9L-Medi    ... <utmb8a.pfb
+  utmro8r NimbusRomNo9L-Regu    ... <utmr8a.pfb
 \end{alltt}
 
 比如我们可以以一个 Times Roman 字体 \file{utmr8a.pfb} 为例，在 \file{texmf}
 目录下的 Type~1 字体文件中寻找它的位置：
 
 \begin{alltt}
-> \Ucom{kpsewhich utmr8a.pfb}
-\ifSingleColumn   /usr/local/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
-\else   /usr/local/texmf-dist/fonts/type1/
-... urw/utm/utmr8a.pfb
-\fi\end{alltt}
+  > \Ucom{kpsewhich utmr8a.pfb}
+  \ifSingleColumn   /usr/local/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
+  \else   /usr/local/texmf-dist/fonts/type1/
+    ... urw/utm/utmr8a.pfb
+  \fi\end{alltt}
 
 现在你可以发现，追寻某个文件的下落是如此方便。尤其是在你怀疑找到的文件错了的时候，这些
 功能非常重要，因为 \cmdname{kpsewhich} 只能告诉你找到的第一个文件。
@@ -2013,15 +2013,15 @@ utmro8r NimbusRomNo9L-Regu    ... <utmr8a.pfb
 有时你可能会需要分析程序是如何解析文件引用的。\KPS{} 提供了多层调试输出来实现这个功能：
 
 \begin{ttdescription}
-\item[\texttt{\ 1}] \texttt{stat} 调用 (磁盘上的查询)。在 \file{ls-R}
+  \item[\texttt{\ 1}] \texttt{stat} 调用 (磁盘上的查询)。在 \file{ls-R}
   数据库及时更新的情况下几乎不会有什么输出。
-\item[\texttt{\ 2}] 对散列表的引用 (例如 \file{ls-R} 数据库，映射文件，配置文件)。
-\item[\texttt{\ 4}] 文件的打开与关闭操作。
-\item[\texttt{\ 8}] \KPS{} 搜索的文件类型的通用路径信息。有助于寻找针对某一文件的
-特定路径。
-\item[\texttt{16}] 每个路径元素的目录列表 (只在本地磁盘上搜索时有用)。
-\item[\texttt{32}] 文件搜索。
-\item[\texttt{64}] 变量的值。
+  \item[\texttt{\ 2}] 对散列表的引用 (例如 \file{ls-R} 数据库，映射文件，配置文件)。
+  \item[\texttt{\ 4}] 文件的打开与关闭操作。
+  \item[\texttt{\ 8}] \KPS{} 搜索的文件类型的通用路径信息。有助于寻找针对某一文件的
+  特定路径。
+  \item[\texttt{16}] 每个路径元素的目录列表 (只在本地磁盘上搜索时有用)。
+  \item[\texttt{32}] 文件搜索。
+  \item[\texttt{64}] 变量的值。
 \end{ttdescription}
 等级 \texttt{-1} 将启用上述所有选项，实际上这是最方便的设置方法了。
 
@@ -2046,14 +2046,14 @@ utmro8r NimbusRomNo9L-Regu    ... <utmr8a.pfb
 文件的 (我们希望使用 Type~1 版本的 Computer Modern 字体，所以使用了 \texttt{-Pcms}
 参数)。
 \begin{alltt}
-> \Ucom{dvips -d4100 hello-world -Pcms -o}
+  > \Ucom{dvips -d4100 hello-world -Pcms -o}
 \end{alltt}
 此时我们将 \cmdname{dvips} 的调试等级 4 (表示字体路径) 和 \KPS\ 的路径元素展开组合到
 一起 (参见 \cmdname{dvips} 参考手册。(稍作整理的) 输出见图~\ref{fig:dvipsdbga}。
 \begin{figure*}[tp]
-\centering
-\input{examples/ex6a.tex}
-\caption{寻找配置文件}\label{fig:dvipsdbga}
+  \centering
+  \input{examples/ex6a.tex}
+  \caption{寻找配置文件}\label{fig:dvipsdbga}
 \end{figure*}
 
 \cmdname{dvips} 启动后就开始搜寻其需要使用的文件。首先找到的是 \file{texmf.cnf}，
@@ -2067,11 +2067,11 @@ utmro8r NimbusRomNo9L-Regu    ... <utmr8a.pfb
 应关系。
 
 \begin{alltt}
-> \Ucom{more /usr/local/texmf/dvips/cms/config.cms}
-   p +ams.map
-   p +cms.map
-   p +cmbkm.map
-   p +amsbkm.map
+  > \Ucom{more /usr/local/texmf/dvips/cms/config.cms}
+  p +ams.map
+  p +cms.map
+  p +cmbkm.map
+  p +amsbkm.map
 \end{alltt}
 于是 \cmdname{dvips} 接下来寻找这些文件，再加上固定载入的，通用映射文件
 \file{psfonts.map} (这个文件里包含常用 \PS{} 字体的映射，参见
@@ -2079,44 +2079,44 @@ utmro8r NimbusRomNo9L-Regu    ... <utmr8a.pfb
 
 这时候 \cmdname{dvips} 向用户表示它的存在：
 \begin{alltt}
-This is dvips(k) 5.92b Copyright 2002 Radical Eye Software (www.radicaleye.com)
+  This is dvips(k) 5.92b Copyright 2002 Radical Eye Software (www.radicaleye.com)
 \end{alltt}
 \ifSingleColumn
-然后开始寻找 prolog 文件 \file{texc.pro}：
-\begin{alltt}\small
-kdebug:start search(file=texc.pro, must\_exist=0, find\_all=0,
-  path=.:~/tex/dvips//:!!/usr/local/texmf/dvips//:
-       ~/tex/fonts/type1//:!!/usr/local/texmf/fonts/type1//).
-kdebug:search(texc.pro) => /usr/local/texmf/dvips/base/texc.pro
-\end{alltt}
+  然后开始寻找 prolog 文件 \file{texc.pro}：
+  \begin{alltt}\small
+    kdebug:start search(file=texc.pro, must\_exist=0, find\_all=0,
+    path=.:~/tex/dvips//:!!/usr/local/texmf/dvips//:
+    ~/tex/fonts/type1//:!!/usr/local/texmf/fonts/type1//).
+    kdebug:search(texc.pro) => /usr/local/texmf/dvips/base/texc.pro
+  \end{alltt}
 \else
-然后开始寻找 prolog 文件 \file{texc.pro} (见图~\ref{fig:dvipsdbgb})。
+  然后开始寻找 prolog 文件 \file{texc.pro} (见图~\ref{fig:dvipsdbgb})。
 \fi
 
 找到所需文件后，\cmdname{dvips} 输出日期和时间，并告知我们它将生成
 \file{hello-world.ps} 文件，需要用到 \file{cmr10} 字体文件，
 这个字体属于``常驻 (resident) 的''，也就是不需要载入位图文件的字体：
 \begin{alltt}\small
-TeX output 1998.02.26:1204' -> hello-world.ps
-Defining font () cmr10 at 10.0pt
-Font cmr10 <CMR10> is resident.
+  TeX output 1998.02.26:1204' -> hello-world.ps
+  Defining font () cmr10 at 10.0pt
+  Font cmr10 <CMR10> is resident.
 \end{alltt}
 寻找并找到了 \file{cmr10.tfm} 文件。然后再次引用了一些 prolog 文件 (此处略去)，
 最终找到了 \file{cmr10.pfb} 这个 Type~1 字体，并将它包含在输出文件中 (见最后
 一行)。
 \begin{alltt}\small
-kdebug:start search(file=cmr10.tfm, must\_exist=1, find\_all=0,
+  kdebug:start search(file=cmr10.tfm, must\_exist=1, find\_all=0,
   path=.:~/tex/fonts/tfm//:!!/usr/local/texmf/fonts/tfm//:
-       /var/tex/fonts/tfm//).
-kdebug:search(cmr10.tfm) => /usr/local/texmf/fonts/tfm/public/cm/cmr10.tfm
-kdebug:start search(file=texps.pro, must\_exist=0, find\_all=0,
-   ...
-<texps.pro>
-kdebug:start search(file=cmr10.pfb, must\_exist=0, find\_all=0,
+  /var/tex/fonts/tfm//).
+  kdebug:search(cmr10.tfm) => /usr/local/texmf/fonts/tfm/public/cm/cmr10.tfm
+  kdebug:start search(file=texps.pro, must\_exist=0, find\_all=0,
+  ...
+  <texps.pro>
+  kdebug:start search(file=cmr10.pfb, must\_exist=0, find\_all=0,
   path=.:~/tex/dvips//:!!/usr/local/texmf/dvips//:
-       ~/tex/fonts/type1//:!!/usr/local/texmf/fonts/type1//).
-kdebug:search(cmr10.pfb) => /usr/local/texmf/fonts/type1/public/cm/cmr10.pfb
-<cmr10.pfb>[1]
+  ~/tex/fonts/type1//:!!/usr/local/texmf/fonts/type1//).
+  kdebug:search(cmr10.pfb) => /usr/local/texmf/fonts/type1/public/cm/cmr10.pfb
+  <cmr10.pfb>[1]
 \end{alltt}
 
 \subsection{运行时选项}
@@ -2126,16 +2126,16 @@ kdebug:search(cmr10.pfb) => /usr/local/texmf/fonts/type1/public/cm/cmr10.pfb
 比较重要的几个设置是：
 
 \begin{ttdescription}
-\item[\texttt{main\_memory}]
+  \item[\texttt{main\_memory}]
   总的可用内存数，以 word 为单位，\TeX{}, \MF{} 和 \MP\ 受此限制。
   每修改一次都必须重新生成一个新的格式文件。比如你可以生成一个``巨型''版本的
   \TeX{}，将其存为 \texttt{hugetex.fmt}。
-\item[\texttt{extra\_mem\_bot}]
+  \item[\texttt{extra\_mem\_bot}]
   为``大型'' \TeX{} 数据结构预留的额外空间：boxes, glue, breakpoint 等。如果你使用
   \PiCTeX{} 时特别有用。
-\item[\texttt{font\_mem\_size}]
+  \item[\texttt{font\_mem\_size}]
   \TeX{} 用于存储字体数据的 word 数。大致等于载入的所有 TFM 文件的总和。
-\item[\texttt{hash\_extra}]
+  \item[\texttt{hash\_extra}]
   为存储控制序列而设置的散列表的额外空间。一般散列表足够存储将近 10,000
   个控制序列。如果你排版的是一本有大量交叉引用的书籍，这个值可能不够用。默认的
   \texttt{hash\_extra} 是 \texttt{50000}。
@@ -2151,13 +2151,13 @@ kdebug:search(cmr10.pfb) => /usr/local/texmf/fonts/type1/public/cm/cmr10.pfb
 在上述许多地方，我们使用了多个以 \code{.} 起始的搜索路径，以优先搜索当前路径，
 比如
 \begin{alltt}\small
-TEXINPUTS=.;$TEXMF/tex//
+  TEXINPUTS=.;$TEXMF/tex//
 \end{alltt}
 
 这是一种简化。我们在 \TL{} 分发的 \code{texmf.cnf} 文件使用的是
 \filename{$TEXMFDOTDIR} 而不是直接用 \samp{.}，比如：
 \begin{alltt}\small
-TEXINPUTS=$TEXMFDOTDIR;$TEXMF/tex//
+  TEXINPUTS=$TEXMFDOTDIR;$TEXMF/tex//
 \end{alltt}
 
 (在分发的文件中，第二个路径元素也比 \filename{$TEXMF/tex//} 稍微复杂一点。但
@@ -2183,123 +2183,123 @@ TEXINPUTS=$TEXMFDOTDIR;$TEXMF/tex//
 
 \begin{itemize*}
 
-\item 英国、德国、荷兰和波兰的 \TeX{} 用户组织
-(分别为 TUG, DANTE e.V., NTG, 和 GUST)，他们为所在
-地区的 \TeX{} 社群提供了必备的技术和管理基础设施。请加入本地的 \TeX 用户组织！
-(参见 \url{https://tug.org/usergroups.html}。)
+  \item 英国、德国、荷兰和波兰的 \TeX{} 用户组织
+  (分别为 TUG, DANTE e.V., NTG, 和 GUST)，他们为所在
+  地区的 \TeX{} 社群提供了必备的技术和管理基础设施。请加入本地的 \TeX 用户组织！
+  (参见 \url{https://tug.org/usergroups.html}。)
 
-\item CTAN 团队 (\url{https://ctan.org})，值得一提的是 Robin Fairbairns 和
-Rainer Sch\"opf。他们负责分发 \TL{} 光盘镜像，为软件包更新提供支撑，\TL{} 正是
-基于这些软件包构建的。
+  \item CTAN 团队 (\url{https://ctan.org})，值得一提的是 Robin Fairbairns 和
+  Rainer Sch\"opf。他们负责分发 \TL{} 光盘镜像，为软件包更新提供支撑，\TL{} 正是
+  基于这些软件包构建的。
 
-\item Nelson Beebe，他为 \TL\ 提供了许多平台，自己也进行了详尽的测试，并在参考
-文献上有无与伦比的贡献。
+  \item Nelson Beebe，他为 \TL\ 提供了许多平台，自己也进行了详尽的测试，并在参考
+  文献上有无与伦比的贡献。
 
-\item John Bowman，他对先进的图形程序 Asymptote 做了许多修改，使之能在 \TL{}
-中工作。
+  \item John Bowman，他对先进的图形程序 Asymptote 做了许多修改，使之能在 \TL{}
+  中工作。
 
-\item Peter Breitenlohner 和 \eTeX\ 团队，他们创造了未来 \TeX\ 的稳定基础。
-同时特别感谢 Peter，他为整个 \TL 中 \GNU\ autotools 的使用提供了主要的帮助。
-Peter 在 2015 年 10 月去世，我们将持续工作以纪念他。
+  \item Peter Breitenlohner 和 \eTeX\ 团队，他们创造了未来 \TeX\ 的稳定基础。
+  同时特别感谢 Peter，他为整个 \TL 中 \GNU\ autotools 的使用提供了主要的帮助。
+  Peter 在 2015 年 10 月去世，我们将持续工作以纪念他。
 
-\item Jin-Hwan Cho 和整个 DVIPDFM$x$ 团队，他们创造了这个优秀的 DVI 输出程序，
-以及对配置问题及时的回应。
+  \item Jin-Hwan Cho 和整个 DVIPDFM$x$ 团队，他们创造了这个优秀的 DVI 输出程序，
+  以及对配置问题及时的回应。
 
-\item Thomas Esser，如果没有他优秀的 \teTeX{} 套件，\TL{} 根本不可能存在。
+  \item Thomas Esser，如果没有他优秀的 \teTeX{} 套件，\TL{} 根本不可能存在。
 
-\item Michel Goossens，他一起编写了原始的文档。
+  \item Michel Goossens，他一起编写了原始的文档。
 
-\item Eitan Gurari，他不知疲倦地改进着的 \TeX4ht 程序用于创建这份文档的 \HTML{}
-版本，年复一年。Eitan 于 2009 年 6 月过早地离开了我们，我们希望把这份文档
-献给它，以志纪念。
+  \item Eitan Gurari，他不知疲倦地改进着的 \TeX4ht 程序用于创建这份文档的 \HTML{}
+  版本，年复一年。Eitan 于 2009 年 6 月过早地离开了我们，我们希望把这份文档
+  献给它，以志纪念。
 
-\item Hans Hagen，他对 \ConTeXt\ 宏包 (\url{https://pragma-ade.com}) 做了
-许多测试和修改，使之能够包含在 \TL{} 的框架下，并持续推进 \TeX\ 的开发。
+  \item Hans Hagen，他对 \ConTeXt\ 宏包 (\url{https://pragma-ade.com}) 做了
+  许多测试和修改，使之能够包含在 \TL{} 的框架下，并持续推进 \TeX\ 的开发。
 
-\item \Thanh, Martin Schr\"oder，和 pdf\TeX\ 团队，他们持续不断地改进 \TeX\
-的功能。
+  \item \Thanh, Martin Schr\"oder，和 pdf\TeX\ 团队，他们持续不断地改进 \TeX\
+  的功能。
 
-\item Hartmut Henkel，他对 pdf\TeX\, Lua\TeX 等程序的开发起到了重要的贡献。
+  \item Hartmut Henkel，他对 pdf\TeX\, Lua\TeX 等程序的开发起到了重要的贡献。
 
-\item Shunshaku Hirata，起始开发和坚持维护 DVIPDFM$x$。
+  \item Shunshaku Hirata，起始开发和坚持维护 DVIPDFM$x$。
 
-\item Taco Hoekwater，他对 \MP{} 和 (Lua)\TeX\ (\url{http://luatex.org})
-重要的开发使之焕发新的活力。他还参与了将 \ConTeXt\ 融入 \TL{}、给
-Kpathsea 添加多线程功能，等等许多工作。
+  \item Taco Hoekwater，他对 \MP{} 和 (Lua)\TeX\ (\url{http://luatex.org})
+  重要的开发使之焕发新的活力。他还参与了将 \ConTeXt\ 融入 \TL{}、给
+  Kpathsea 添加多线程功能，等等许多工作。
 
-\item Khaled Hosny，他对 \XeTeX, DVIPDFM$x$ 和阿拉伯及其他字体的开发都有
-巨大的贡献。
+  \item Khaled Hosny，他对 \XeTeX, DVIPDFM$x$ 和阿拉伯及其他字体的开发都有
+  巨大的贡献。
 
-\item Pawe{\l} Jackowski，他创建了 Windows 下的安装程序 \cmdname{tlpm}，
-和 Tomasz {\L}uczak，因为他的 \cmdname{tlpmgui} 被用在了以前的版本。
+  \item Pawe{\l} Jackowski，他创建了 Windows 下的安装程序 \cmdname{tlpm}，
+  和 Tomasz {\L}uczak，因为他的 \cmdname{tlpmgui} 被用在了以前的版本。
 
-\item Akira Kakuto，以他的 W32TEX 发行版
-(\url{http://w32tex.org/}) 为基础提供了 Windows 下的二进制文件，以及许多
-其他的贡献。
+  \item Akira Kakuto，以他的 W32TEX 发行版
+  (\url{http://w32tex.org/}) 为基础提供了 Windows 下的二进制文件，以及许多
+  其他的贡献。
 
-\item Jonathan Kew，他开发了非凡的 Xe\TeX{} 引擎并花了大量时间和精力集成到
-\TL{} 中。以及 Mac\TeX 安装程序的早期版本，还有我们推荐的前端 \TeX{}works。
+  \item Jonathan Kew，他开发了非凡的 Xe\TeX{} 引擎并花了大量时间和精力集成到
+  \TL{} 中。以及 Mac\TeX 安装程序的早期版本，还有我们推荐的前端 \TeX{}works。
 
-\item Hironori Kitagawa，对 p\TeX\ 和相关的支持进行了大量的工作。
+  \item Hironori Kitagawa，对 p\TeX\ 和相关的支持进行了大量的工作。
 
-\item Dick Koch，他维护了 Mac\TeX\ (\url{https://tug.org/mactex}) 这个和
-\TL{} 联系非常紧密的发行版本。
+  \item Dick Koch，他维护了 Mac\TeX\ (\url{https://tug.org/mactex}) 这个和
+  \TL{} 联系非常紧密的发行版本。
 
-\item Reinhard Kotucha，他对 \TL{} 2008 的基础架构和安装程序起到了重要贡献，
-以及 Windows 下的研究性工作，\texttt{getnonfreefonts} 脚本，等等。
+  \item Reinhard Kotucha，他对 \TL{} 2008 的基础架构和安装程序起到了重要贡献，
+  以及 Windows 下的研究性工作，\texttt{getnonfreefonts} 脚本，等等。
 
-\item Siep Kroonenberg，也因为他对 \TL{} 2008 基础架构和安装程序的重要贡献，
-尤其是在 Windows 上。他还花了大量的时间更新手册，介绍了这些特性。
+  \item Siep Kroonenberg，也因为他对 \TL{} 2008 基础架构和安装程序的重要贡献，
+  尤其是在 Windows 上。他还花了大量的时间更新手册，介绍了这些特性。
 
-\item Clerk Ma，对引擎的 bug 修正和扩展。
+  \item Clerk Ma，对引擎的 bug 修正和扩展。
 
-\item Mojca Miklavec, 为她在 \ConTeXt\ 上的工作、编译大量二进制文件和很多
-其他的工作。
+  \item Mojca Miklavec, 为她在 \ConTeXt\ 上的工作、编译大量二进制文件和很多
+  其他的工作。
 
-\item Heiko Oberdiek，因为他的 \pkgname{epstopdf} 包和许多其他的工作，压缩
-巨大的 \pkgname{pst-geo} 数据文件使我们得以包含它们，最重要的还是因为他在
-\pkgname{hyperref} 宏包上优秀的工作。
+  \item Heiko Oberdiek，因为他的 \pkgname{epstopdf} 包和许多其他的工作，压缩
+  巨大的 \pkgname{pst-geo} 数据文件使我们得以包含它们，最重要的还是因为他在
+  \pkgname{hyperref} 宏包上优秀的工作。
 
-\item Phelype Oleinik，对 2020 年在多个引擎上实现组分隔的 \cs{input} 命令，以及
-更多的工作。
+  \item Phelype Oleinik，对 2020 年在多个引擎上实现组分隔的 \cs{input} 命令，以及
+  更多的工作。
 
-\item Petr Ol\v{s}ak，他非常认真地协调和检查所有的捷克语和斯洛伐克语资料。
+  \item Petr Ol\v{s}ak，他非常认真地协调和检查所有的捷克语和斯洛伐克语资料。
 
-\item Toshio Oshima，他提供了 Windows 下的 \cmdname{dviout} 预览工具。
+  \item Toshio Oshima，他提供了 Windows 下的 \cmdname{dviout} 预览工具。
 
-\item Manuel P\'egouri\'e-Gonnard，他对宏包更新、文档改进以及
-\cmdname{texdoc} 开发上的努力。
+  \item Manuel P\'egouri\'e-Gonnard，他对宏包更新、文档改进以及
+  \cmdname{texdoc} 开发上的努力。
 
-\item Fabrice Popineau，他创建了 \TL{} 最早的 Windows 支持。
+  \item Fabrice Popineau，他创建了 \TL{} 最早的 Windows 支持。
 
-\item Norbert Preining，他是当前 \TL{} 基础架构和安装程序的总设计师，还
-负责协调了 Debian 版本的 \TL{} 工作 (和 Frank K\"uster 一起)，还有很多其他的工作。
+  \item Norbert Preining，他是当前 \TL{} 基础架构和安装程序的总设计师，还
+  负责协调了 Debian 版本的 \TL{} 工作 (和 Frank K\"uster 一起)，还有很多其他的工作。
 
-\item Sebastian Rahtz，他是 \TL{} 的创始者，并维护了它许多年。Sebastian 在 2016
-年 3 月去世，我们用持续的工作来纪念他。
+  \item Sebastian Rahtz，他是 \TL{} 的创始者，并维护了它许多年。Sebastian 在 2016
+  年 3 月去世，我们用持续的工作来纪念他。
 
-\item Luigi Scarso，他坚持开发 MetaPost, Lua\TeX 等等许多。
+  \item Luigi Scarso，他坚持开发 MetaPost, Lua\TeX 等等许多。
 
-\item Andreas Scherer，他开发了 \texttt{cwebbin}，\TL{} 使用的 CWEB 实现。
+  \item Andreas Scherer，他开发了 \texttt{cwebbin}，\TL{} 使用的 CWEB 实现。
 
-\item Tomasz Trzeciak，他为 Windows 开发提供了广泛的帮助。
+  \item Tomasz Trzeciak，他为 Windows 开发提供了广泛的帮助。
 
-\item Vladimir Volovich，他很大地帮助解决了许多移植和维护的问题，尤其是令我们能够
-将 \cmdname{xindy} 包含进来。
+  \item Vladimir Volovich，他很大地帮助解决了许多移植和维护的问题，尤其是令我们能够
+  将 \cmdname{xindy} 包含进来。
 
-\item Staszek Wawrykiewicz，\TL{} 的一个主要的测试人员，同时还是许多重要波兰语
-支持的协调人员：字体、Windows 安装，和其他许多工作。Staszek 在 2018 年 2 月去世
-了，我们将继续工作以纪念他。
+  \item Staszek Wawrykiewicz，\TL{} 的一个主要的测试人员，同时还是许多重要波兰语
+  支持的协调人员：字体、Windows 安装，和其他许多工作。Staszek 在 2018 年 2 月去世
+  了，我们将继续工作以纪念他。
 
-\item Olaf Weber，他在以前几年对 \Webc{} 耐心的维护。
+  \item Olaf Weber，他在以前几年对 \Webc{} 耐心的维护。
 
-\item Gerben Wierda，他创建和维护了原来的 \MacOSX\ 支持。
+  \item Gerben Wierda，他创建和维护了原来的 \MacOSX\ 支持。
 
-\item Graham Williams，他是 \TeX\ Catalogue 的发起者。
+  \item Graham Williams，他是 \TeX\ Catalogue 的发起者。
 
-\item Joseph Wright，他为让多个引擎获得相同的 primitive 功能进行了大量的工作。
+  \item Joseph Wright，他为让多个引擎获得相同的 primitive 功能进行了大量的工作。
 
-\item Hironobu Yamashita，对 p\TeX\ 和相关的支持进行了大量的工作。
+  \item Hironobu Yamashita，对 p\TeX\ 和相关的支持进行了大量的工作。
 
 \end{itemize*}
 
@@ -2313,9 +2313,9 @@ Dick Koch (\pkgname{x86\_64-darwin}),
 Nikola Le\v{c}i\'c (\pkgname{amd64-freebsd}, \pkgname{i386-freebsd}),
 Henri Menke (\pkgname{x86\_64-linuxmusl}),
 Mojca Miklavec (\pkgname{i386-linux},
-                \pkgname{x86\_64-darwinlegacy},
-                \pkgname{i386-solaris}, \pkgname{x86\_64-solaris},
-                \pkgname{sparc-solaris}),
+\pkgname{x86\_64-darwinlegacy},
+\pkgname{i386-solaris}, \pkgname{x86\_64-solaris},
+\pkgname{sparc-solaris}),
 Norbert Preining (\pkgname{x86\_64-linux}).
 关于 \TL{} 编译进程的信息，请查阅 \url{https://tug.org/texlive/build.html}。
 
@@ -2380,25 +2380,25 @@ Uwe Ziegenhagen (德语)。\TL{} 文档的主页是
 节，\p.\pageref{sec:tl-coll-dists})。此外：
 
 \begin{itemize*}
-\item 在 \LaTeX{} 团队的要求下，我们将 \cmdname{latex} 和 \cmdname{pdflatex}
-      命令改为使用 \eTeX{} 引擎 (参见 \p.\pageref{text:etex})。
-\item 包含了新的 Latin Modern 字体 (并推荐使用)。
-\item 因为不再有人拥有 (或主动提供) 用于编译新的二进制程序的硬件，去除了
-      Alpha OSF 的支持 (先前已经去除了 HPUX 的支持)。
-\item Windows 下的安装有很大改变，首次提供了基于 XEmacs 的集成环境。
-\item Windows 下重要的辅助性程序 (Perl, Ghost\-script, Image\-Magick, Ispell)
-      现在放在 \TL{} 的安装目录。
-\item \cmdname{dvips}, \cmdname{dvipdfm} 和 \cmdname{pdftex}
-      使用的字体映射文件现在通过 \cmdname{updmap} 这套新程序生成，并安装到
-      \dirname{texmf/fonts/map} 目录下。
-\item \TeX{}, \MF{}, 和 \MP{} 现在缺省直接输出大多数的输入字符 (位置 32 及其以上)
-      (比如通过 \verb|\write|)，包括输出到文件、日志和终端上。也就是说，\emph{不再}使用
-      \verb|^^| 标记来转换。在 \TL{}~7 中是否转换根据系统区域 (locale)
-      设置而定，而这一版里 locale 设置不再影响 \TeX{} 程序的行为，所以如果你需要
-      \verb|^^| 形式的输出，请将 \verb|texmf/web2c/cp8bit.tcx|
-      文件改名。(后续版本将提供更简洁的方式来控制。)
-\item 对文档作了大量更新。
-\item 最后，因为版本号增长得实在太快，现在简单地使用年份来标识版本：\TL{} 2003。
+  \item 在 \LaTeX{} 团队的要求下，我们将 \cmdname{latex} 和 \cmdname{pdflatex}
+  命令改为使用 \eTeX{} 引擎 (参见 \p.\pageref{text:etex})。
+  \item 包含了新的 Latin Modern 字体 (并推荐使用)。
+  \item 因为不再有人拥有 (或主动提供) 用于编译新的二进制程序的硬件，去除了
+  Alpha OSF 的支持 (先前已经去除了 HPUX 的支持)。
+  \item Windows 下的安装有很大改变，首次提供了基于 XEmacs 的集成环境。
+  \item Windows 下重要的辅助性程序 (Perl, Ghost\-script, Image\-Magick, Ispell)
+  现在放在 \TL{} 的安装目录。
+  \item \cmdname{dvips}, \cmdname{dvipdfm} 和 \cmdname{pdftex}
+  使用的字体映射文件现在通过 \cmdname{updmap} 这套新程序生成，并安装到
+  \dirname{texmf/fonts/map} 目录下。
+  \item \TeX{}, \MF{}, 和 \MP{} 现在缺省直接输出大多数的输入字符 (位置 32 及其以上)
+  (比如通过 \verb|\write|)，包括输出到文件、日志和终端上。也就是说，\emph{不再}使用
+  \verb|^^| 标记来转换。在 \TL{}~7 中是否转换根据系统区域 (locale)
+  设置而定，而这一版里 locale 设置不再影响 \TeX{} 程序的行为，所以如果你需要
+  \verb|^^| 形式的输出，请将 \verb|texmf/web2c/cp8bit.tcx|
+  文件改名。(后续版本将提供更简洁的方式来控制。)
+  \item 对文档作了大量更新。
+  \item 最后，因为版本号增长得实在太快，现在简单地使用年份来标识版本：\TL{} 2003。
 \end{itemize*}
 
 
@@ -2408,124 +2408,124 @@ Uwe Ziegenhagen (德语)。\TL{} 文档的主页是
 
 \begin{itemize}
 
-\item 如果你在本地安装的字体时涉及了 \filename{.map} 或 \filename{.enc}
-(附带这种文件的可能性很小) 辅助文件，可能需要转移这些文件的位置。
+  \item 如果你在本地安装的字体时涉及了 \filename{.map} 或 \filename{.enc}
+        (附带这种文件的可能性很小) 辅助文件，可能需要转移这些文件的位置。
 
-现在根据 \envname{TEXFONTMAPS} 变量中的路径设置，只在 (所有 \filename{texmf}
-目录树下的) \dirname{fonts/map} 子目录下搜索 \filename{.map}
-文件。与之类似，\filename{.enc} 文件现在只在 \dirname{fonts/enc}
-目录下搜索，根据 \envname{ENCFONTS} 变量中的路径设置。如果遇到有问题的文
-件，\cmdname{updmap} 会提出警告。
+        现在根据 \envname{TEXFONTMAPS} 变量中的路径设置，只在 (所有 \filename{texmf}
+        目录树下的) \dirname{fonts/map} 子目录下搜索 \filename{.map}
+        文件。与之类似，\filename{.enc} 文件现在只在 \dirname{fonts/enc}
+        目录下搜索，根据 \envname{ENCFONTS} 变量中的路径设置。如果遇到有问题的文
+        件，\cmdname{updmap} 会提出警告。
 
-关于这种搜索方式的其他信息，请参见 \url{https://tug.org/texlive/mapenc.html}。
+        关于这种搜索方式的其他信息，请参见 \url{https://tug.org/texlive/mapenc.html}。
 
-\item 因为有人可能更愿意使用 \MIKTEX\ 而非 \Webc{} 系统，\TK\
-现在包含了一套基于 \MIKTEX\ 的可安装 \CD，参见第~\ref{sec:overview-tl}~节
-(\p.\pageref{sec:overview-tl})。
+  \item 因为有人可能更愿意使用 \MIKTEX\ 而非 \Webc{} 系统，\TK\
+        现在包含了一套基于 \MIKTEX\ 的可安装 \CD，参见第~\ref{sec:overview-tl}~节
+        (\p.\pageref{sec:overview-tl})。
 
-\item 在原来旧版本 \TL\ 中单一的 \dirname{texmf} 目录树被分拆为三
-个：\dirname{texmf}, \dirname{texmf-dist}, 和 \dirname{texmf-doc}。参见
-第~\ref{sec:tld}~节 (\p.\pageref{sec:tld}) 及各目录下的 \filename{README}
-文件。
+  \item 在原来旧版本 \TL\ 中单一的 \dirname{texmf} 目录树被分拆为三
+        个：\dirname{texmf}, \dirname{texmf-dist}, 和 \dirname{texmf-doc}。参见
+        第~\ref{sec:tld}~节 (\p.\pageref{sec:tld}) 及各目录下的 \filename{README}
+        文件。
 
-\item 所有 \TeX\ 输入文件现在统一收集到了 \dirname{texmf*} 下的
-\dirname{tex} 子目录中，不再分散在各个 \dirname{tex}, \dirname{etex},
-\dirname{pdftex}, \dirname{pdfetex} 目录。见~
-\CDref{texmf-dist/doc/english/tds/tds.html\#Extensions}
-{\texttt{texmf-dist/doc/english/tds/tds.html\#Extensions}}。
+  \item 所有 \TeX\ 输入文件现在统一收集到了 \dirname{texmf*} 下的
+        \dirname{tex} 子目录中，不再分散在各个 \dirname{tex}, \dirname{etex},
+        \dirname{pdftex}, \dirname{pdfetex} 目录。见~
+        \CDref{texmf-dist/doc/english/tds/tds.html\#Extensions}
+        {\texttt{texmf-dist/doc/english/tds/tds.html\#Extensions}}。
 
-\item 辅助性脚本 (并非直接提供给用户调用的) 现在放在 \dirname{texmf*} 目录树下
-新的 \dirname{scripts} 子目录中，并可以通过 \verb|kpsewhich -format=texmfscripts|
-来搜索。如果你的程序调用了这些脚本，必须修改路径。参见
-\CDref{texmf-dist/doc/english/tds/tds.html\#Scripts}
-{\texttt{texmf-dist/doc/english/tds/tds.html\#Scripts}}。
+  \item 辅助性脚本 (并非直接提供给用户调用的) 现在放在 \dirname{texmf*} 目录树下
+        新的 \dirname{scripts} 子目录中，并可以通过 \verb|kpsewhich -format=texmfscripts|
+        来搜索。如果你的程序调用了这些脚本，必须修改路径。参见
+        \CDref{texmf-dist/doc/english/tds/tds.html\#Scripts}
+        {\texttt{texmf-dist/doc/english/tds/tds.html\#Scripts}}。
 
-\item 几乎所有格式，都用 \filename{cp227.tcx} 这个转换文件将大多数的可见 (printable)
-字符保留下来，而不再使用 \verb|^^| 标识来转换这些字符。具体而言，在位置 32--256 的
-字符，加上 tab, vertical tab, 和 form feed 字符都作为可见字符而不再转换。例外情况是
-plain \TeX\ (只将位置 32--126 的字符视为可见), \ConTeXt\ (0--255 都视为可见) 和与
-\OMEGA\ 相关的格式。缺省的情况几乎与 \TL\,2003 完全一致，但通过更简洁的方式实现，并允许
-更多定制。参见 \CDref{texmf-dist/doc/web2c/web2c.html\#TCX-files}
-{\texttt{texmf-dist/doc/web2c/web2c.html\#TCX-files}}。
-(另外，如果遇到 Unicode 输入，\TeX\ 可能会在显示错误上下文时输出半个字符，因为它是基于
-字节流来处理输入的。)
+  \item 几乎所有格式，都用 \filename{cp227.tcx} 这个转换文件将大多数的可见 (printable)
+        字符保留下来，而不再使用 \verb|^^| 标识来转换这些字符。具体而言，在位置 32--256 的
+        字符，加上 tab, vertical tab, 和 form feed 字符都作为可见字符而不再转换。例外情况是
+        plain \TeX\ (只将位置 32--126 的字符视为可见), \ConTeXt\ (0--255 都视为可见) 和与
+        \OMEGA\ 相关的格式。缺省的情况几乎与 \TL\,2003 完全一致，但通过更简洁的方式实现，并允许
+        更多定制。参见 \CDref{texmf-dist/doc/web2c/web2c.html\#TCX-files}
+        {\texttt{texmf-dist/doc/web2c/web2c.html\#TCX-files}}。
+        (另外，如果遇到 Unicode 输入，\TeX\ 可能会在显示错误上下文时输出半个字符，因为它是基于
+        字节流来处理输入的。)
 
-\item \textsf{pdfetex} 现在是除 (plain) \textsf{tex} 外所有格式的默认引擎 (当然
-以 \textsf{latex} 这种方式运行时它还是生成 DVI)。这样一来，至少 \textsf{pdftex}
-的微调排版 (microtypographic) 技术可以在 \LaTeX, \ConTeXt 等格式中使用，另外 \eTeX\
-的特性也包含在其中 (\OnCD{texmf-dist/doc/etex/base/})。
+  \item \textsf{pdfetex} 现在是除 (plain) \textsf{tex} 外所有格式的默认引擎 (当然
+        以 \textsf{latex} 这种方式运行时它还是生成 DVI)。这样一来，至少 \textsf{pdftex}
+        的微调排版 (microtypographic) 技术可以在 \LaTeX, \ConTeXt 等格式中使用，另外 \eTeX\
+        的特性也包含在其中 (\OnCD{texmf-dist/doc/etex/base/})。
 
-这还说明\emph{比以前任何时候都更有必要}使用 (对 plain 和 \LaTeX\ 都适用的)
-\pkgname{ifpdf} 宏包或其类似代码，因为只检查 \cs{pdfoutput} 或其他原语是否已经定义
-不再是判断是否处于 PDF 输出状态的可靠方法。我们在这一年尽可能地保持向下兼容，但以后
-即使在输出 DVI 时 \cs{pdfoutput} 也可能已经定义。
+        这还说明\emph{比以前任何时候都更有必要}使用 (对 plain 和 \LaTeX\ 都适用的)
+        \pkgname{ifpdf} 宏包或其类似代码，因为只检查 \cs{pdfoutput} 或其他原语是否已经定义
+        不再是判断是否处于 PDF 输出状态的可靠方法。我们在这一年尽可能地保持向下兼容，但以后
+        即使在输出 DVI 时 \cs{pdfoutput} 也可能已经定义。
 
-\item pdf\TeX\ (\url{http://pdftex.org}) 新增了许多特性：
+  \item pdf\TeX\ (\url{http://pdftex.org}) 新增了许多特性：
 
-  \begin{itemize*}
+        \begin{itemize*}
 
-  \item 可以使用 \cs{pdfmapfile} 和 \cs{pdfmapline} 来在单独文档内指定字体映射文件。
+          \item 可以使用 \cs{pdfmapfile} 和 \cs{pdfmapline} 来在单独文档内指定字体映射文件。
 
-  \item 可以更方便地使用排版微调 (Microtypographic) 和字体延展 (font expansion)
-  技术了。\\
-  \url{http://www.ntg.nl/pipermail/ntg-pdftex/2004-May/000504.html}
+          \item 可以更方便地使用排版微调 (Microtypographic) 和字体延展 (font expansion)
+          技术了。\\
+          \url{http://www.ntg.nl/pipermail/ntg-pdftex/2004-May/000504.html}
 
-  \item 原来使用专有格式的配置文件 \filename{pdftex.cfg} 里的选项现在都必须改用
-  \TeX{} 原语来设置，通常放在 \filename{pdftexconfig.tex} 里面，不再支持
-  \filename{pdftex.cfg} 的配置方式。每次修改 \filename{pdftexconfig.tex}
-  之后都必须重新生成 \filename{.fmt} 文件。
+          \item 原来使用专有格式的配置文件 \filename{pdftex.cfg} 里的选项现在都必须改用
+          \TeX{} 原语来设置，通常放在 \filename{pdftexconfig.tex} 里面，不再支持
+          \filename{pdftex.cfg} 的配置方式。每次修改 \filename{pdftexconfig.tex}
+          之后都必须重新生成 \filename{.fmt} 文件。
 
-  \item 参见 pdf\TeX\ 手册以了解更多信息：\OnCD{texmf-dist/doc/pdftex/manual/pdftex-a.pdf}。
+          \item 参见 pdf\TeX\ 手册以了解更多信息：\OnCD{texmf-dist/doc/pdftex/manual/pdftex-a.pdf}。
 
-  \end{itemize*}
+        \end{itemize*}
 
-\item \cmdname{tex} (以及 \cmdname{mf} 和 \cmdname{mpost}) 中的 \cs{input}
-原语现在支持通过双引号来引用包含空格和特殊字符的文件。一个典型的例子如下：
-\begin{verbatim}
+  \item \cmdname{tex} (以及 \cmdname{mf} 和 \cmdname{mpost}) 中的 \cs{input}
+        原语现在支持通过双引号来引用包含空格和特殊字符的文件。一个典型的例子如下：
+        \begin{verbatim}
 \input "filename with spaces"   % plain
 \input{"filename with spaces"}  % latex
 \end{verbatim}
-参阅 \Webc{} 文档以了解更多信息：\OnCD{texmf-dist/doc/web2c}。
+        参阅 \Webc{} 文档以了解更多信息：\OnCD{texmf-dist/doc/web2c}。
 
-\item enc\TeX\ 的支持现在已被包含在 \Webc{} 中，因而所有 \TeX\ 程序都可以通过
-\optname{-enc} 参数启用这一支持 \Dash \emph{前提是构建好了格式文件}。enc\TeX\
-提供了对输入输出通用的重新编码功能，实现对 Unicode (以 UTF-8 编码的形式)
-的完整支持。参见 \OnCD{texmf-dist/doc/generic/enctex/} 和
-\url{http://olsak.net/enctex.html}。
+  \item enc\TeX\ 的支持现在已被包含在 \Webc{} 中，因而所有 \TeX\ 程序都可以通过
+        \optname{-enc} 参数启用这一支持 \Dash \emph{前提是构建好了格式文件}。enc\TeX\
+        提供了对输入输出通用的重新编码功能，实现对 Unicode (以 UTF-8 编码的形式)
+        的完整支持。参见 \OnCD{texmf-dist/doc/generic/enctex/} 和
+        \url{http://olsak.net/enctex.html}。
 
-\item 提供了 Aleph 这套新的 \TeX{} 引擎，它将 \eTeX\ 和 \OMEGA\ 合并到了一起。
-关于 Aleph 的部分信息可以在 \OnCD{texmf-dist/doc/aleph/base}
-和 \url{https://texfaq.org/FAQ-enginedev} 找到。Aleph
-的 \LaTeX 格式文件称做 \textsf{lamed}。
+  \item 提供了 Aleph 这套新的 \TeX{} 引擎，它将 \eTeX\ 和 \OMEGA\ 合并到了一起。
+        关于 Aleph 的部分信息可以在 \OnCD{texmf-dist/doc/aleph/base}
+        和 \url{https://texfaq.org/FAQ-enginedev} 找到。Aleph
+        的 \LaTeX 格式文件称做 \textsf{lamed}。
 
-\item 最新发布的 \LaTeX\ 包含了是新版的 LPPL 授权协议\Dash 这一协议已被
-Debian 首肯。\LaTeX\ 其他的更新请见 \OnCD{texmf-dist/doc/latex/base} 下的
-\filename{ltnews} 文件。
+  \item 最新发布的 \LaTeX\ 包含了是新版的 LPPL 授权协议\Dash 这一协议已被
+        Debian 首肯。\LaTeX\ 其他的更新请见 \OnCD{texmf-dist/doc/latex/base} 下的
+        \filename{ltnews} 文件。
 
-\item 包含了一个叫做 \cmdname{dvipng} 的新程序，用于将 DVI 转换为
-PNG 图像文件。参见 \url{https://ctan.org/pkg/dvipng}。
+  \item 包含了一个叫做 \cmdname{dvipng} 的新程序，用于将 DVI 转换为
+        PNG 图像文件。参见 \url{https://ctan.org/pkg/dvipng}。
 
-\item 我们在作者 (Claudio Beccari) 的同意下，将 \pkgname{cbgreek} 包含的
-字体数量减少到中等。去除了不可见、轮廓和透明版本的字体，这些字体几乎很少用到。而我们
-的光盘镜像需要空间。完整版本当然还是在 CTAN 提供
-(\url{https://ctan.org/pkg/cbgreek-complete})。
+  \item 我们在作者 (Claudio Beccari) 的同意下，将 \pkgname{cbgreek} 包含的
+        字体数量减少到中等。去除了不可见、轮廓和透明版本的字体，这些字体几乎很少用到。而我们
+        的光盘镜像需要空间。完整版本当然还是在 CTAN 提供
+        (\url{https://ctan.org/pkg/cbgreek-complete})。
 
-\item 去掉了 \cmdname{oxdvi}，改为只使用 \cmdname{xdvi}。
+  \item 去掉了 \cmdname{oxdvi}，改为只使用 \cmdname{xdvi}。
 
-\item 不再为 \cmdname{tex}, \cmdname{mf}, 和 \cmdname{mpost} 程序创建
-\cmdname{ini} 和 \cmdname{vir} 开头的命令链接，比如
-\cmdname{initex}。\cmdname{ini} 的功能早在几年前就通过 \optname{-ini}
-命令行参数提供了。
+  \item 不再为 \cmdname{tex}, \cmdname{mf}, 和 \cmdname{mpost} 程序创建
+        \cmdname{ini} 和 \cmdname{vir} 开头的命令链接，比如
+        \cmdname{initex}。\cmdname{ini} 的功能早在几年前就通过 \optname{-ini}
+        命令行参数提供了。
 
-\item 去掉了 \textsf{i386-openbsd} 平台的支持。因为在 BSD Ports
-系统中已经包含了 \pkgname{tetex} 软件包，而 GNU/Linux 和
-FreeBSD 下的二进制版本都已存在，所以志愿者的时间可以花在其他的地方了。
+  \item 去掉了 \textsf{i386-openbsd} 平台的支持。因为在 BSD Ports
+        系统中已经包含了 \pkgname{tetex} 软件包，而 GNU/Linux 和
+        FreeBSD 下的二进制版本都已存在，所以志愿者的时间可以花在其他的地方了。
 
-\item 至少在 \textsf{sparc-solaris} 平台下，你必须设置好
-\envname{LD\_LIBRARY\_PATH} 环境变量才能执行 \pkgname{t1utils} 包含的程序。
-因为这些程序是使用 C++ 编写的，其运行时库没有固定的位置。(这一情况并非在 2004 版
-中首次出现，但现在才写入文档) 与之类似，\textsf{mips-irix} 平台下需要用到
-MIPSpro 7.4 运行时库。
+  \item 至少在 \textsf{sparc-solaris} 平台下，你必须设置好
+        \envname{LD\_LIBRARY\_PATH} 环境变量才能执行 \pkgname{t1utils} 包含的程序。
+        因为这些程序是使用 C++ 编写的，其运行时库没有固定的位置。(这一情况并非在 2004 版
+        中首次出现，但现在才写入文档) 与之类似，\textsf{mips-irix} 平台下需要用到
+        MIPSpro 7.4 运行时库。
 
 \end{itemize}
 
@@ -2536,48 +2536,48 @@ MIPSpro 7.4 运行时库。
 
 \begin{itemize}
 
-\item 引入了新的 \cmdname{texconfig-sys}, \cmdname{updmap-sys}, 和
-      \cmdname{fmtutil-sys} 安装脚本，用于修改系统目录树下的配置。而原有的
-      \cmdname{texconfig}, \cmdname{updmap}, 和 \cmdname{fmtutil}
-      则用于修改针对单个用户的文件 (放在 \dirname{$HOME/.texlive2005}
-      目录下的)。
+  \item 引入了新的 \cmdname{texconfig-sys}, \cmdname{updmap-sys}, 和
+        \cmdname{fmtutil-sys} 安装脚本，用于修改系统目录树下的配置。而原有的
+        \cmdname{texconfig}, \cmdname{updmap}, 和 \cmdname{fmtutil}
+        则用于修改针对单个用户的文件 (放在 \dirname{$HOME/.texlive2005}
+        目录下的)。
 
-\item 增加了对应的 \envname{TEXMFCONFIG} 和 \envname{TEXMFSYSCONFIG}
-      变量，分别用于设置针对用户和系统的，专门存放配置文件的目录树。所以你需要将个人使用的
-      \filename{fmtutil.cnf} 和 \filename{updmap.cfg}
-      放到合适位置。不过还有一种方法是在 \filename{texmf.cnf} 里边重新定义
-      \envname{TEXMFCONFIG} 或 \envname{TEXMFSYSCONFIG}
-      变量。无论如何，这两个值对应的实际目录都必须正确存在。参见
-      第~\pageref{sec:texmftrees}~页的第~\ref{sec:texmftrees}~节。
+  \item 增加了对应的 \envname{TEXMFCONFIG} 和 \envname{TEXMFSYSCONFIG}
+        变量，分别用于设置针对用户和系统的，专门存放配置文件的目录树。所以你需要将个人使用的
+        \filename{fmtutil.cnf} 和 \filename{updmap.cfg}
+        放到合适位置。不过还有一种方法是在 \filename{texmf.cnf} 里边重新定义
+        \envname{TEXMFCONFIG} 或 \envname{TEXMFSYSCONFIG}
+        变量。无论如何，这两个值对应的实际目录都必须正确存在。参见
+        第~\pageref{sec:texmftrees}~页的第~\ref{sec:texmftrees}~节。
 
-\item 虽然我们在上一年就已经使用了 \cmdname{pdfetex} 作为输出程序，但在它输出 \dvi\
-      格式时会禁用 \verb|\pdfoutput| 等原语
-      (primitive)。这一年，我们按照预期计划取消了这一兼容性限制。所以，如果你的文档里使用了
-      \verb|\ifx\pdfoutput\undefined| 这样的语句来判断是否正在 PDF
-      输出模式下，现在就必须修改了。你可以使用 \pkgname{ifpdf.sty} 宏包 (对 plain \TeX\
-      和 \LaTeX{} 都适用) 来判断，或者仿照这个文件里的判断原理自己写一个。
+  \item 虽然我们在上一年就已经使用了 \cmdname{pdfetex} 作为输出程序，但在它输出 \dvi\
+        格式时会禁用 \verb|\pdfoutput| 等原语
+        (primitive)。这一年，我们按照预期计划取消了这一兼容性限制。所以，如果你的文档里使用了
+        \verb|\ifx\pdfoutput\undefined| 这样的语句来判断是否正在 PDF
+        输出模式下，现在就必须修改了。你可以使用 \pkgname{ifpdf.sty} 宏包 (对 plain \TeX\
+        和 \LaTeX{} 都适用) 来判断，或者仿照这个文件里的判断原理自己写一个。
 
-\item 上一年，我们将格式文件的输出改成了和这些文件本身一样的 8
-      位字符。在你需要的情况下，可以使用新的 TCX 文件 \filename{empty.tcx} 来获得原有的
-      \verb|^^| 表示方式。例如：
+  \item 上一年，我们将格式文件的输出改成了和这些文件本身一样的 8
+        位字符。在你需要的情况下，可以使用新的 TCX 文件 \filename{empty.tcx} 来获得原有的
+        \verb|^^| 表示方式。例如：
 
-\begin{verbatim}
+        \begin{verbatim}
 latex --translate-file=empty.tcx yourfile.tex
 \end{verbatim}
 
-\item 新增了用于转换 DVI 为 PDF 的 \cmdname{dvipdfmx} 程序，这是
-      \cmdname{dvipdfm} 的一个比较活跃更新的版本 (我们仍然提供
-      \cmdname{dvipdfm}，但不建议你继续使用)。
+  \item 新增了用于转换 DVI 为 PDF 的 \cmdname{dvipdfmx} 程序，这是
+        \cmdname{dvipdfm} 的一个比较活跃更新的版本 (我们仍然提供
+        \cmdname{dvipdfm}，但不建议你继续使用)。
 
-\item 新增了叫 \cmdname{pdfopen} 和 \cmdname{pdfclose} 的两个程序，用于控制
-      Adobe Acrobat\slash Reader 在不重启程序的情况下重新载入 PDF 文件。(其他的
-      PDF 阅读器，如 \cmdname{xpdf}, \cmdname{gv}, 和
-      \cmdname{gsview}，都不会遇到这个问题。)
+  \item 新增了叫 \cmdname{pdfopen} 和 \cmdname{pdfclose} 的两个程序，用于控制
+        Adobe Acrobat\slash Reader 在不重启程序的情况下重新载入 PDF 文件。(其他的
+        PDF 阅读器，如 \cmdname{xpdf}, \cmdname{gv}, 和
+        \cmdname{gsview}，都不会遇到这个问题。)
 
-\item 为了保持一致性，将 \envname{HOMETEXMF} 和 \envname{VARTEXMF}
-      环境变量分别更名为 \envname{TEXMFHOME} 和
-      \envname{TEXMFSYSVAR}。还有一个针对单独用户的 \envname{TEXMFVAR}
-      环境变量可用。参见上面的第一点。
+  \item 为了保持一致性，将 \envname{HOMETEXMF} 和 \envname{VARTEXMF}
+        环境变量分别更名为 \envname{TEXMFHOME} 和
+        \envname{TEXMFSYSVAR}。还有一个针对单独用户的 \envname{TEXMFVAR}
+        环境变量可用。参见上面的第一点。
 
 \end{itemize}
 
@@ -2818,13 +2818,13 @@ Lua\TeX: 升级到 Lua 5.2，包含一个新的库 (\code{pdfscanner}) 来处理
 
 \XeTeX\ (见其主页了解更多信息):
 \begin{itemize*}
-\item 使用 HarfBuzz 库替代 ICU 进行字体排版。(仍然使用 ICU 来支持输入编码、双向
-排版，以及可选的 Unicode 断行。)
-\item 使用 Graphite2 和 HarfBuzz 来替代 SilGraphite 进行 Graphite 排版。
-\item 在 Mac 上，使用 Core Text 替代 (Apple 不再建议使用的) ATSUI。
-\item 在名称相同的情况下优先使用 TrueType/OpenType 字体而不是 Type1 字体。
-\item 修正偶尔出现的 \XeTeX\ 和 \code{xdvipdfmx} 字体查找不匹配的问题。
-\item 支持 OpenType math 间距调整。
+  \item 使用 HarfBuzz 库替代 ICU 进行字体排版。(仍然使用 ICU 来支持输入编码、双向
+  排版，以及可选的 Unicode 断行。)
+  \item 使用 Graphite2 和 HarfBuzz 来替代 SilGraphite 进行 Graphite 排版。
+  \item 在 Mac 上，使用 Core Text 替代 (Apple 不再建议使用的) ATSUI。
+  \item 在名称相同的情况下优先使用 TrueType/OpenType 字体而不是 Type1 字体。
+  \item 修正偶尔出现的 \XeTeX\ 和 \code{xdvipdfmx} 字体查找不匹配的问题。
+  \item 支持 OpenType math 间距调整。
 \end{itemize*}
 
 \cmdname{xdvi}: 现在使用 FreeType 替代 \code{t1lib} 进行字体渲染。
@@ -2954,17 +2954,17 @@ Xe\TeX: 新的原生命令 \cs{XeTeXhyphenatablelength},
 
 其他实用工具：
 \begin{itemize*}
-\item \code{gregorio} 是一个新的程序，作为 \code{gregoriotex} 宏包的一部分用于
-Gregorian 圣歌音乐的排版；它缺省就被包括在了 \code{shell\_escape\_commands}
-中。
+  \item \code{gregorio} 是一个新的程序，作为 \code{gregoriotex} 宏包的一部分用于
+  Gregorian 圣歌音乐的排版；它缺省就被包括在了 \code{shell\_escape\_commands}
+  中。
 
-\item \code{upmendex} 是一个创建索引的程序, 基本上和 \code{makeindex}
-兼容，支持了 Unicode 排序，以及其他的一些修改。
+  \item \code{upmendex} 是一个创建索引的程序, 基本上和 \code{makeindex}
+  兼容，支持了 Unicode 排序，以及其他的一些修改。
 
-\item \code{afm2tfm} 现在只将基于音调的高度调整上调；新选项 \code{-a}
-忽略所有调整。
+  \item \code{afm2tfm} 现在只将基于音调的高度调整上调；新选项 \code{-a}
+  忽略所有调整。
 
-\item \code{ps2pk} 可以处理扩展 PK/GF 字体了。
+  \item \code{ps2pk} 可以处理扩展 PK/GF 字体了。
 \end{itemize*}
 
 Mac\TeX: 去除了 \TeX\ Distribution Preference Pane；它的功能现在在 TeX Live
@@ -3063,17 +3063,17 @@ Mac\TeX: 参见下面关于 macOS 版本支持的变化。除此之外，Mac\TeX
 
 平台支持:
 \begin{itemize*}
-\item
-去除: \code{armel-linux}, \code{powerpc-linux}。
+  \item
+  去除: \code{armel-linux}, \code{powerpc-linux}。
 
-\item \code{x86\_64-darwin} 支持 10.10--10.13
-(Yosemite, El~Capitan, Sierra, 和 High~Sierra).
+  \item \code{x86\_64-darwin} 支持 10.10--10.13
+  (Yosemite, El~Capitan, Sierra, 和 High~Sierra).
 
-\item \code{x86\_64-darwinlegacy} 支持 10.6--10.10 (尽管 10.10 最好使用
-\code{x86\_64-darwin})。去除了所有对 10.5 (Leopard) 的支持，也就是说
-\code{powerpc-darwin} 和 \code{i386-darwin platforms} 被去除了。
+  \item \code{x86\_64-darwinlegacy} 支持 10.6--10.10 (尽管 10.10 最好使用
+  \code{x86\_64-darwin})。去除了所有对 10.5 (Leopard) 的支持，也就是说
+  \code{powerpc-darwin} 和 \code{i386-darwin platforms} 被去除了。
 
-\item Windows: 不再支持 XP。
+  \item Windows: 不再支持 XP。
 \end{itemize*}
 
 \subsection{2019}
@@ -3107,8 +3107,8 @@ Xe\TeX: 新的原语 \cs{expanded},
 \cs{randomseed}; 扩展 \cs{Ucharcat} 来输出 active 的字符。
 
 \code{tlmgr}: 支持用 \code{curl} 作为下载程序；优先用 \code{lz4} 和 gzip 而不是
-   \code{xz} 做本地备份；优先使用系统提供的压缩和下载程序，而不是 \TL\ 自带的，
-   除非设置了 \code{TEXLIVE\_PREFER\_OWN} 环境变量。
+\code{xz} 做本地备份；优先使用系统提供的压缩和下载程序，而不是 \TL\ 自带的，
+除非设置了 \code{TEXLIVE\_PREFER\_OWN} 环境变量。
 
 \code{install-tl}: 新的 \code{-gui} 选项 (不带参数) 现在是 Windows 和 Mac 下的默
 认的选项，它会使用一个新的 Tcl/TK 图形界面 (见第~\ref{sec:basic}~节和
@@ -3116,13 +3116,13 @@ Xe\TeX: 新的原语 \cs{expanded},
 
 实用程序：
 \begin{itemize*}
-\item \code{cwebbin} (\url{https://ctan.org/pkg/cwebbin}) 现在是 \TeX\ Live 中的
-CWEB 实现，支持更多的方言，并包括构建 mini-index 使用的 \code{ctwill} 程序。
+  \item \code{cwebbin} (\url{https://ctan.org/pkg/cwebbin}) 现在是 \TeX\ Live 中的
+  CWEB 实现，支持更多的方言，并包括构建 mini-index 使用的 \code{ctwill} 程序。
 
-\item \code{chkdvifont}: 报告 \dvi{} 文件中字体的信息，包括 tfm/ofm, vf, gf, pk
-格式。
+  \item \code{chkdvifont}: 报告 \dvi{} 文件中字体的信息，包括 tfm/ofm, vf, gf, pk
+  格式。
 
-\item \code{dvispc}: 让 DVI 文件的 specials 对页面无关。
+  \item \code{dvispc}: 让 DVI 文件的 specials 对页面无关。
 \end{itemize*}
 
 Mac\TeX: \code{x86\_64-darwin} 现在支持 10.12 或更新的版本 (Sierra,
@@ -3136,18 +3136,18 @@ High Sierra, Mojave)；\code{x86\_64-darwinlegacy} 仍然支持 10.6 或更新�
 \label{sec:tlcurrent}
 
 通用的更新: \begin{itemize}
-\item 所有 \TeX\ 引擎，包括 \texttt{tex} 的 \cs{input} 原语，现在都支持以组分隔
-的文件名参数，作为跟系统有关的扩展。标准的用空格或者标识符分隔的文件名的使用完全
-不受影响。按组分隔的参数一开始是 Lua\TeX\ 先实现的；现在它被推广到所有的引擎中了。
-ASCII 双引号字符 (\texttt{"}) 一开始会被从文件名中去掉，但在输入后不变。这个改变
-目前不会影响 \LaTeX{} 的 \cs{input} 命令，因为那是对标准 \cs{input} 原语重新定义
-的宏。
+  \item 所有 \TeX\ 引擎，包括 \texttt{tex} 的 \cs{input} 原语，现在都支持以组分隔
+        的文件名参数，作为跟系统有关的扩展。标准的用空格或者标识符分隔的文件名的使用完全
+        不受影响。按组分隔的参数一开始是 Lua\TeX\ 先实现的；现在它被推广到所有的引擎中了。
+        ASCII 双引号字符 (\texttt{"}) 一开始会被从文件名中去掉，但在输入后不变。这个改变
+        目前不会影响 \LaTeX{} 的 \cs{input} 命令，因为那是对标准 \cs{input} 原语重新定义
+        的宏。
 
-\item \texttt{kpsewhich}、\texttt{tex}、\texttt{mf} 以及所有其他引擎的的
-新选项 \texttt{--cnf-line}, \texttt{tex}，以支持通过命令行指定任意配置文件。
+  \item \texttt{kpsewhich}、\texttt{tex}、\texttt{mf} 以及所有其他引擎的的
+        新选项 \texttt{--cnf-line}, \texttt{tex}，以支持通过命令行指定任意配置文件。
 
-\item 今年和往年对多个引擎添加的许多原语是为了让所有引擎都拥有一系列共通的功能
-(见 \textsl{\LaTeX\ News \#31}, \url{https://latex-project.org/news})。
+  \item 今年和往年对多个引擎添加的许多原语是为了让所有引擎都拥有一系列共通的功能
+        (见 \textsl{\LaTeX\ News \#31}, \url{https://latex-project.org/news})。
 
 \end{itemize}
 
@@ -3179,14 +3179,14 @@ Mac\TeX: Mac\TeX\ 和 \texttt{x86\_64-darwin} 现在需要 10.13 或者更新的
 被公证，但提供的 \filename{README} 文件里列出了获取它们的链接。
 
 \code{tlmgr} 和基础架构: \begin{itemize*}
-\item 在软件包无法现在时，自动重试一次。
-\item 新选项 \texttt{tlmgr check texmfdbs}, 用来检查每个目录树 \texttt{ls-R} 文件和
-\texttt{!!} 配置的一致性。
-\item 软件包容器使用带版本号的文件名，比如
-\texttt{tlnet/archive/\textsl{pkgname}.rNNN.tar.xz}；对用户应该没有影响，但对于
-分发来说会是一个明显的改变。
-\item \texttt{catalogue-date} 信息不在从 \TeX~Catalogue 获得了，因为它通常和软件
-包更新没有关系。
+  \item 在软件包无法现在时，自动重试一次。
+  \item 新选项 \texttt{tlmgr check texmfdbs}, 用来检查每个目录树 \texttt{ls-R} 文件和
+  \texttt{!!} 配置的一致性。
+  \item 软件包容器使用带版本号的文件名，比如
+  \texttt{tlnet/archive/\textsl{pkgname}.rNNN.tar.xz}；对用户应该没有影响，但对于
+  分发来说会是一个明显的改变。
+  \item \texttt{catalogue-date} 信息不在从 \TeX~Catalogue 获得了，因为它通常和软件
+  包更新没有关系。
 \end{itemize*}
 
 \subsection{未来}
@@ -3198,8 +3198,8 @@ Mac\TeX: Mac\TeX\ 和 \texttt{x86\_64-darwin} 现在需要 10.13 或者更新的
 
 请把更正、建议或者提供帮助的意愿发送到：
 \begin{quote}
-\email{tex-live@tug.org} \\
-\url{https://tug.org/texlive}
+  \email{tex-live@tug.org} \\
+  \url{https://tug.org/texlive}
 \end{quote}
 
 \medskip
@@ -3211,17 +3211,17 @@ Mac\TeX: Mac\TeX\ 和 \texttt{x86\_64-darwin} 现在需要 10.13 或者更新的
 
 \begin{itemize}
 
-\item package, 视上下文，有时翻译为软件包，有时翻译为宏包。
-\item format file, 即 \TeX{} 程序一般都会预载入的 \texttt{.fmt}
-文件。本文档中翻译为格式文件。
-\item scheme, 本文档中译为 (安装) 方案。
-\item collection, 本文档中译为 (软件) 集合。
-\item 本文档中有时对原文没有采用逐字逐句的对比翻译，而是总括其意思，转换为
-更易为中文 \TeX{} 用户习惯的表达方式。
-\item architecture/platform, 是意思比较相近的词，基本上是只某种 CPU
-和对应这个 CPU 的操作系统。比如 i386-linux。本文里翻译为架构、平台、体系
-结构等等。
-\item binary, 二进制文件，其实就是说可执行程序文件和库文件了。
+  \item package, 视上下文，有时翻译为软件包，有时翻译为宏包。
+  \item format file, 即 \TeX{} 程序一般都会预载入的 \texttt{.fmt}
+        文件。本文档中翻译为格式文件。
+  \item scheme, 本文档中译为 (安装) 方案。
+  \item collection, 本文档中译为 (软件) 集合。
+  \item 本文档中有时对原文没有采用逐字逐句的对比翻译，而是总括其意思，转换为
+        更易为中文 \TeX{} 用户习惯的表达方式。
+  \item architecture/platform, 是意思比较相近的词，基本上是只某种 CPU
+        和对应这个 CPU 的操作系统。比如 i386-linux。本文里翻译为架构、平台、体系
+        结构等等。
+  \item binary, 二进制文件，其实就是说可执行程序文件和库文件了。
 
 \end{itemize}
 
